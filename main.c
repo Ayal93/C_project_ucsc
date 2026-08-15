@@ -7,17 +7,13 @@
 #include"finance.h"
 
 
+
 int main(void){
-     
-   
-    
+    freopen("output.txt", "w", stdout); 
+
     start_game();
-    
 
+    fclose(stdout);
 
-
-
-
-
-
+    return 0;
 }

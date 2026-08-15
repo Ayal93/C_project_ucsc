@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -196,20 +194,33 @@ void start_game()
         {
                
                
-            if (players[j].status_bankrupt)
-            {
-                continue;
-            }
+             check_bankrupt(&players[j], j);     
+    if (players[j].status_bankrupt)
+    {
+        continue;
+    }
 
-            if (handle_jail_turn(&players[j]))
-            {
-                continue;
-            }
+             if (!handle_jail_turn(&players[j]))    
+    {
+        continue;
+    }
  printf("\n--------------------$$$-------------------\n");
             
             players[j].player_previous_position = players[j].player_current_position;
-            players[j].player_current_position += roll_dice();
-            printf("%s rolled %d. \n",players[j].player_name,players[j].die_value);
+           
+
+
+            int is_double;
+int dice_result = roll_dice(&is_double);
+players[j].die_value = dice_result;
+
+players[j].player_previous_position = players[j].player_current_position;
+players[j].player_current_position += dice_result;
+
+printf("%s rolled %d.\n", players[j].player_name, players[j].die_value);
+
+
+
             check_bankrupt(&players[j], j);
 
 
@@ -283,7 +294,12 @@ void start_game()
             review_property_market(min_round);
             run_maintenance_cycle(players, 4);
             check_insurance_expiry(min_round);
-            
+             
+            if (min_round % 15 == 0)
+           {
+                reginal_case();  // regional card drawing thing goin on here
+              }
+
             
             if (min_round % 10 == 0)
             {
@@ -299,4 +315,3 @@ void start_game()
 
     } while (k < 500);
 }
-

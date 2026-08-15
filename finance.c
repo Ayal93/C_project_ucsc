@@ -7,6 +7,7 @@
 #include <time.h>
 #include "board.h"
 #include "Auctions.h"
+#include "Insuarance.h"
 
 
 extern Board gameBoard;
@@ -863,7 +864,7 @@ void review_property_market(int current_round)
     }
 }
 
-void print_current_market_conditions(int current_round, const MarketConditionsState *market)
+void print_current_market_conditions(int current_round, const MarketConditionsState *market )
 {
     printf("===========================================\n");
     printf("Current Market Conditions\n");
@@ -894,8 +895,8 @@ void print_current_market_conditions(int current_round, const MarketConditionsSt
     }
 
     printf("Regional Development\n");
-    printf("--------------------\n");
-    if (market->regional_development_expiration_round > current_round)
+    printf("--------------------\n"); //market->regional_development_expiration_round 
+    /*if (market->regional_development_expiration_round > current_round)
     {
         printf("%s (+%d%%)\n", market->regional_development_name, market->regional_development_percentage);
         printf("Rounds Remaining : %d\n\n", market->regional_development_expiration_round - current_round);
@@ -903,7 +904,7 @@ void print_current_market_conditions(int current_round, const MarketConditionsSt
     else
     {
         printf("None Active\n\n");
-    }
+    }*/
 
     printf("Inflation\n");
     printf("-----------\n");
@@ -1275,3 +1276,8 @@ double calculate_net_worth(Player *player)
 
     return net_worth;
 }
+
+
+
+
+

@@ -1,8 +1,24 @@
 #include <stdio.h>
 #include "events.h"
 #include "players.h"
-
 # include "board.h"
+
+
+const char *CARD_NAMES[12] = {
+    "Southern Tourism Boom",
+    "Port City Expansion",
+    "IT Industry Growth",
+    "Northern Development Programme",
+    "Tea Export Boom",
+    "Airport Expansion",
+    "University City Growth",
+    "Beach Pollution",
+    "Flood Damage",
+    "Transport Strike",
+    "Electricity Tariff Increase",
+    "Water Shortage"
+};
+
 void initialize_event_deck(EventDeck *deck)
 {
     deck->cards[0] =
@@ -199,3 +215,145 @@ EventCard pick_event_card(EventDeck *deck)
 
     return picked_card;
 }
+
+
+
+
+
+
+// regional card part --------------
+
+void init_deck() {
+    Regional_Card_Deck *deck;
+    for (int i = 0; i < 12; i++) {
+        deck->cards[i] = (reginalCard)i;
+    }
+    deck->top_index = 0;
+}
+
+
+reginalCard draw_from_top_areginal_card() {
+    Regional_Card_Deck *deck;
+    reginalCard drawn = deck->cards[deck->top_index];
+    deck->top_index = (deck->top_index + 1) % 12; 
+    return drawn;
+}
+
+
+void reginal_case(){
+    Board *board;
+    reginalCard card =draw_from_top_areginal_card();
+
+for (int i = 0; i < SQUARE_COUNT; i++) {
+        enumSquareName name = board->squares[i].enumName;
+
+        switch (card) {
+            case SOUTHERN_TOURISM_BOOM:
+                if (name == SQUARE_GALLE_FORT || 
+                    name == SQUARE_UNAWATUNA || 
+                    name == SQUARE_HIKKADUWA) {
+                    board->squares[i].property.Base_Rental *= 1.40;
+                }
+                break;
+
+            case PORT_CITY_EXPANSION:
+                if (name == SQUARE_PETTAH || name == SQUARE_MARADANA) {
+                    board->squares[i].property.Purchase_Price *= 1.25;
+                } else if (name == SQUARE_COLOMBO_FORT_RAILWAY_STATION) {
+                    board->squares[i].railway.Purchase_Price *= 1.25;
+                }
+                break;
+
+            case IT_INDUSTRY_GROWTH:
+                if (name == SQUARE_MAHARAGAMA || 
+                    name == SQUARE_NUGEGODA || 
+                    name == SQUARE_KOTTAWA) {
+                    board->squares[i].property.Purchase_Price *= 1.20;
+                }
+                break;
+
+            case NORTHERN_DEVELOPMENT_PROGRAMME:
+                if (name == SQUARE_JAFFNA_TOWN || 
+                    name == SQUARE_NALLUR || 
+                    name == SQUARE_TRINCOMALEE) {
+                    board->squares[i].property.Purchase_Price *= 1.30;
+                }
+                break;
+
+            case TEA_EXPORT_BOOM:
+                if (name == SQUARE_NUWARA_ELIYA) {
+                    board->squares[i].property.Purchase_Price *= 1.35;
+                }
+                break;
+
+            case AIRPORT_EXPANSION:
+                if (name == SQUARE_NEGOMBO || 
+                    name == SQUARE_KATUNAYAKE || 
+                    name == SQUARE_JA_ELA) {
+                    board->squares[i].property.Base_Rental *= 1.30;
+                }
+                break;
+
+            case UNIVERSITY_CITY_GROWTH:
+                if (name == SQUARE_PERADENIYA || name == SQUARE_KANDY_CITY) {
+                    board->squares[i].property.Purchase_Price *= 1.20;
+                }
+                break;
+
+            case BEACH_POLLUTION:
+                if (name == SQUARE_GALLE_FORT || 
+                    name == SQUARE_UNAWATUNA || 
+                    name == SQUARE_HIKKADUWA || 
+                    name == SQUARE_MOUNT_LAVINIA) {
+                    board->squares[i].property.Base_Rental *= 0.70;
+                }
+                break;
+
+            case FLOOD_DAMAGE:
+                if (name == SQUARE_PETTAH || 
+                    name == SQUARE_WELLAWATTE || 
+                    name == SQUARE_BAMBALAPITIYA) {
+                    board->squares[i].property.Purchase_Price *= 0.80;
+                }
+                break;
+
+            case TRANSPORT_STRIKE:
+                if (board->squares[i].square_type == Railway) {
+                    board->squares[i].railway.Purchase_Price *= 0.60;
+                }
+                break;
+
+            case ELECTRICITY_TARIFF_INCREASE:
+                if (board->squares[i].square_type == Utility) {
+                    board->squares[i].utility.Purchase_Price *= 1.25;
+                }
+                break;
+
+            case WATER_SHORTAGE:
+                if (name == SQUARE_NATIONAL_WATER_SUPPLY_BOARD) {
+                    board->squares[i].utility.Purchase_Price *= 1.20;
+                } else if (board->squares[i].square_type == Property) {
+                    board->squares[i].property.Purchase_Price *= 0.90;
+                }
+                break;
+
+            default:
+                break;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,6 +6,9 @@
 
 
 
+
+
+
 extern double current_loan_interest_rate;
 
 void bank_of_ceylon_action(Player *player, int player_index, Square *square);

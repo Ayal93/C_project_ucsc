@@ -56,6 +56,38 @@ typedef struct
 } ActiveNationalEvent;
 
 
+typedef struct{
+     char regional_development_name[50];
+int regional_development_percentage;
+    int regional_development_expiration_round;
+}
+Regional;
+
+typedef enum 
+{
+    SOUTHERN_TOURISM_BOOM,
+    PORT_CITY_EXPANSION,
+    IT_INDUSTRY_GROWTH,
+    NORTHERN_DEVELOPMENT_PROGRAMME,
+    TEA_EXPORT_BOOM,
+    AIRPORT_EXPANSION,
+    UNIVERSITY_CITY_GROWTH,
+    BEACH_POLLUTION,
+    FLOOD_DAMAGE,
+    TRANSPORT_STRIKE,
+    ELECTRICITY_TARIFF_INCREASE,
+    WATER_SHORTAGE
+}reginalCard;
+
+
+
+
+
+typedef struct {
+    reginalCard cards[12];
+    int top_index;
+} Regional_Card_Deck;
+
 
 
 extern ActiveNationalEvent active_national_events[MAX_ACTIVE_EVENTS];  
@@ -63,7 +95,8 @@ extern ActiveNationalEvent active_national_events[MAX_ACTIVE_EVENTS];
 void initialize_event_deck(EventDeck *deck);
 
 EventCard pick_event_card(EventDeck *deck);
+reginalCard draw_from_top_areginal_card();
 
-
+void reginal_case();
 
 #endif
