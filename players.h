@@ -22,7 +22,7 @@ typedef struct {
     int player_round_number;
 
     players_name_enum name_by_enum;
-
+// houses things
     int no_houses;
     int no_hotels;
     int number_of_railway_staions;
@@ -33,6 +33,8 @@ typedef struct {
 
     double rental_income;
 
+//auction and back things
+     int is_in_auction;
     int status_bankrupt;
     int number_of_loans;
     double loan_amount;
@@ -42,7 +44,7 @@ typedef struct {
 
     int is_in_jail;        
     int jail_turns_spent; 
-    int is_in_auction;
+   
     int has_suffered_loss;
 
     property player_owned_properties[20];

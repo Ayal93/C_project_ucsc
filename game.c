@@ -97,8 +97,11 @@ void player_passe_go(Player *player)
 
         //  every time GO is passed or landed on
         player->player_cash_in_hand += 2000.00;
-        printf("%s passed GO. Collected LKR 2,000. Total cash: LKR %.0f\n",
-               player->player_name, player->player_cash_in_hand);
+        
+               printf("%s passed GO.\n",player->player_name);
+    printf("Collected LKR 2,000.\n");
+    printf("Current Balance : LKR %d.\n", player->player_cash_in_hand);
+               
     }
 }
 
@@ -126,7 +129,7 @@ void display_round_summary(int round_number, const Player players[], int num_pla
         if (players[i].number_of_loans > 0) {
             printf("Outstanding Loan : LKR %.0f\n\n", players[i].loan_amount);
         } else {
-            printf("Outstanding Loan : None\n\n");
+            printf("Outstanding Loan : None\n\n",players[i].loan_amount);
         }
 
         if (i < num_players - 1) {
@@ -156,6 +159,7 @@ void resolve_landing_action(Player *player, Square *square, int player_index)
 {
     printf("\n%s landed on %s (Event Square).\n", player->player_name, square->square_name);
     EventCard card = pick_event_card(&gameBoard.event_deck);
+    printf("\n%s\n",card.name);
     apply_event_effect(player, &card);
     break;
 }
@@ -181,11 +185,12 @@ void resolve_landing_action(Player *player, Square *square, int player_index)
 
 
 
-int k = 0;
+
 
 void start_game()
 {
     setup_game();
+    int k = 0;
     int previous_min_round = 0;
 
     do
@@ -236,14 +241,13 @@ printf("%s rolled %d.\n", players[j].player_name, players[j].die_value);
             {
                 player_buying_property(&players[j], square, j);
 
-                if (square->property.Current_Owner == -1)
-                {
-                    run_auction(square, players, 4);
-                }
+                
             }
             else
             {
-                player_buying_property(&players[j], square, j);
+               
+                    run_auction(square, players, 4);
+                
             }
 
             pay_rent_when_land_on_others(&players[j], current_landed_square(&players[j]), j);
@@ -297,6 +301,7 @@ printf("%s rolled %d.\n", players[j].player_name, players[j].die_value);
              
             if (min_round % 15 == 0)
            {
+                printf("\nGovernment Regulation\n");
                 reginal_case();  // regional card drawing thing goin on here
               }
 

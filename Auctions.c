@@ -6,7 +6,9 @@
 
 void run_auction(Square *square, Player players[], int num_players)
 {
-    printf("Auction Started.\n\n");
+   if (square->square_type== Property)
+   {
+     printf("Auction Started.\n\n");
     printf("Property :\n%s\n\n", square->square_name);
 
     double current_bid = square->property.Purchase_Price * 0.50;
@@ -121,11 +123,14 @@ void run_auction(Square *square, Player players[], int num_players)
         printf("Ownership remains with the Bank.\n");
         square->property.Current_Owner = -1;
     }
+   }
+   
 }
 
 int live_auctioning(Player *player)
 {
     return player->is_in_auction;
+   
 }
 
 void auction_liquidated_assets(Player *bankrupt_player, int player_index, Board *board, Player players[], int num_players)

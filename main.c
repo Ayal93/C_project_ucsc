@@ -9,7 +9,7 @@
 
 
 int main(void){
-   // freopen("output.txt", "w", stdout); 
+    //freopen("output.txt", "w", stdout); 
 
     start_game();
 

@@ -252,51 +252,52 @@ for (int i = 0; i < SQUARE_COUNT; i++) {
                 if (name == SQUARE_GALLE_FORT || 
                     name == SQUARE_UNAWATUNA || 
                     name == SQUARE_HIKKADUWA) {
-                    board->squares[i].property.Base_Rental *= 1.40;
+                        printf("\nGalle Fort, Unawatuna and Hikkaduwa rental income +40%%\n");
+                    board->squares[i].property.Base_Rental+=board->squares[i].property.Base_Rental* 0.40;
                 }
                 break;
 
             case PORT_CITY_EXPANSION:
-                if (name == SQUARE_PETTAH || name == SQUARE_MARADANA) {
-                    board->squares[i].property.Purchase_Price *= 1.25;
-                } else if (name == SQUARE_COLOMBO_FORT_RAILWAY_STATION) {
-                    board->squares[i].railway.Purchase_Price *= 1.25;
+                if (name == SQUARE_PETTAH || name == SQUARE_MARADANA) {printf("\nPettah, Maradana and Colombo Fort Station values +25%%\n");
+                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.25;
+                } else if (name == SQUARE_COLOMBO_FORT_RAILWAY_STATION) {printf("\nMaharagama, Nugegoda and Kottawa values +20%%\n");
+                    board->squares[i].railway.Purchase_Price +=board->squares[i].property.Base_Rental* 0.25;
                 }
                 break;
 
             case IT_INDUSTRY_GROWTH:
                 if (name == SQUARE_MAHARAGAMA || 
                     name == SQUARE_NUGEGODA || 
-                    name == SQUARE_KOTTAWA) {
-                    board->squares[i].property.Purchase_Price *= 1.20;
+                    name == SQUARE_KOTTAWA) {printf("\nMaharagama, Nugegoda and Kottawa values +20%%\n");
+                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.20;
                 }
                 break;
 
             case NORTHERN_DEVELOPMENT_PROGRAMME:
                 if (name == SQUARE_JAFFNA_TOWN || 
                     name == SQUARE_NALLUR || 
-                    name == SQUARE_TRINCOMALEE) {
-                    board->squares[i].property.Purchase_Price *= 1.30;
+                    name == SQUARE_TRINCOMALEE) {printf("\nJaffna Town, Nallur and Trincomalee values +30%%\n");
+                    board->squares[i].property.Purchase_Price+=board->squares[i].property.Base_Rental* 0.30;
                 }
                 break;
 
             case TEA_EXPORT_BOOM:
-                if (name == SQUARE_NUWARA_ELIYA) {
-                    board->squares[i].property.Purchase_Price *= 1.35;
+                if (name == SQUARE_NUWARA_ELIYA) {printf("\nNuwara Eliya value +35%%\n");
+                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.35;
                 }
                 break;
 
             case AIRPORT_EXPANSION:
                 if (name == SQUARE_NEGOMBO || 
                     name == SQUARE_KATUNAYAKE || 
-                    name == SQUARE_JA_ELA) {
-                    board->squares[i].property.Base_Rental *= 1.30;
+                    name == SQUARE_JA_ELA) {printf("\nNegombo, Katunayake and Ja-Ela rents +30%%\n");
+                    board->squares[i].property.Base_Rental +=board->squares[i].property.Base_Rental* 0.30;
                 }
                 break;
 
             case UNIVERSITY_CITY_GROWTH:
-                if (name == SQUARE_PERADENIYA || name == SQUARE_KANDY_CITY) {
-                    board->squares[i].property.Purchase_Price *= 1.20;
+                if (name == SQUARE_PERADENIYA || name == SQUARE_KANDY_CITY) {printf("\nPeradeniya and Kandy City values +20%%\n");
+                    board->squares[i].property.Purchase_Price+=board->squares[i].property.Base_Rental* 0.20;
                 }
                 break;
 
@@ -304,36 +305,36 @@ for (int i = 0; i < SQUARE_COUNT; i++) {
                 if (name == SQUARE_GALLE_FORT || 
                     name == SQUARE_UNAWATUNA || 
                     name == SQUARE_HIKKADUWA || 
-                    name == SQUARE_MOUNT_LAVINIA) {
-                    board->squares[i].property.Base_Rental *= 0.70;
+                    name == SQUARE_MOUNT_LAVINIA) {printf("\nSouthern coastal rents -30%%\n");
+                    board->squares[i].property.Base_Rental -=board->squares[i].property.Base_Rental* 0.30;
                 }
                 break;
 
             case FLOOD_DAMAGE:
                 if (name == SQUARE_PETTAH || 
                     name == SQUARE_WELLAWATTE || 
-                    name == SQUARE_BAMBALAPITIYA) {
-                    board->squares[i].property.Purchase_Price *= 0.80;
+                    name == SQUARE_BAMBALAPITIYA) {printf("\nLow-lying coastal properties lose 20%% value\n");
+                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.80;
                 }
                 break;
 
             case TRANSPORT_STRIKE:
-                if (board->squares[i].square_type == Railway) {
-                    board->squares[i].railway.Purchase_Price *= 0.60;
+                if (board->squares[i].square_type == Railway) {printf("\nRailway revenue reduced by 40%%\n");
+                    board->squares[i].railway.Purchase_Price +=board->squares[i].property.Base_Rental* 0.60;
                 }
                 break;
 
             case ELECTRICITY_TARIFF_INCREASE:
-                if (board->squares[i].square_type == Utility) {
-                    board->squares[i].utility.Purchase_Price *= 1.25;
+                if (board->squares[i].square_type == Utility) {printf("Utility rent +25%%\n");
+                    board->squares[i].utility.Purchase_Price +=board->squares[i].property.Base_Rental* 0.25;
                 }
                 break;
 
             case WATER_SHORTAGE:
-                if (name == SQUARE_NATIONAL_WATER_SUPPLY_BOARD) {
-                    board->squares[i].utility.Purchase_Price *= 1.20;
-                } else if (board->squares[i].square_type == Property) {
-                    board->squares[i].property.Purchase_Price *= 0.90;
+                if (name == SQUARE_NATIONAL_WATER_SUPPLY_BOARD) {printf("Water utility revenue +20%%; \n");
+                    board->squares[i].utility.Purchase_Price +=board->squares[i].property.Base_Rental*0.20;
+                } else if (board->squares[i].square_type == Property) {printf("\nSurrounding properties -10%%\n");
+                    board->squares[i].property.Purchase_Price-=board->squares[i].property.Base_Rental* 0.10;
                 }
                 break;
 
