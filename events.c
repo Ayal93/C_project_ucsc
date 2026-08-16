@@ -2,7 +2,7 @@
 #include "events.h"
 #include "players.h"
 # include "board.h"
-
+#include "Insuarance.h"
 
 const char *CARD_NAMES[12] = {
     "Southern Tourism Boom",
@@ -117,26 +117,58 @@ EventCard pick_event_card(EventDeck *deck)
 
     return picked_card;
 }
-void apply_event_effect(Player *player, const EventCard *card)
-{
+
+
+
+
+
+
+
+
+
+
+void apply_event_effect(Player *player, int player_index, const EventCard *card)
+{   
     switch (card->type)
-    {
+    {   
         case TOURISM_HYPE:
             player->player_cash_in_hand += 500.00;
             printf("%s benefits from Tourism Hype! +LKR 500.\n", player->player_name);
-           
             break;
 
         case FUEL_SHORTAGE:
             player->player_cash_in_hand -= 200.00;
             printf("%s pays LKR 200 due to Fuel Shortage.\n", player->player_name);
-            
             break;
 
         case HEAVY_FLOODS:
-            player->player_cash_in_hand -= 400.00;
-            printf("%s pays LKR 400 in flood damage.\n", player->player_name);
+        {
+            int owned_developed = -1;
+
+            for (int i = 0; i < 40; i++)
+            {
+                if (gameBoard.squares[i].square_type == Property &&
+                    gameBoard.squares[i].property.Current_Owner == player_index &&
+                    (gameBoard.squares[i].property.no_of_House_Construction > 0 ||
+                     gameBoard.squares[i].property.no_of_Hotel_Construction > 0))
+                {
+                    owned_developed = i;
+                    break;
+                }
+            }
+
+            if (owned_developed >= 0)
+            {
+                process_insurance_claim(player, &gameBoard.squares[owned_developed].property, DISASTER_FLOOD);
+            }
+            else
+            {
+                player->player_cash_in_hand -= 400.00;
+                printf("%s pays LKR 400 in flood damage.\n", player->player_name);
+            }
             break;
+        
+        }
 
         case POLITICAL_RALLY:
             printf("%s is delayed by a Political Rally. No effect this turn.\n", player->player_name);
@@ -158,15 +190,14 @@ void apply_event_effect(Player *player, const EventCard *card)
             break;
 
         case INTEREST_RATE_CUT:
-        player->current_loan_interest_rate=0.1;
-        bank.bank_interest_rate=0.1;
-        
+            player->current_loan_interest_rate = 0.1;
+            bank.bank_interest_rate = 0.1;
             printf("%s benefits from lower loan interest this round.\n", player->player_name);
             break;
 
         case INTEREST_RATE_INCREASE:
-        player->current_loan_interest_rate=4.0;
-         bank.bank_interest_rate=0.4;
+            player->current_loan_interest_rate = 4.0;
+            bank.bank_interest_rate = 0.4;
             printf("%s faces higher loan interest this round.\n", player->player_name);
             break;
 
@@ -187,7 +218,6 @@ void apply_event_effect(Player *player, const EventCard *card)
 
         case PORT_EXPANSION:
             printf(" Port Expansion. Railway values may rise.\n");
-           
             break;
 
         case FESTIVAL_SEASON:
@@ -247,118 +277,133 @@ reginalCard draw_from_top_areginal_card(Regional_Card_Deck *deck) {
 }
 
 
-void reginal_case(){
-    Board *board;
-    reginalCard card =draw_from_top_areginal_card(&gameBoard.regional_deck);
+void reginal_case(int current_round){
 
-for (int i = 0; i < SQUARE_COUNT; i++) {
-        enumSquareName name = board->squares[i].enumName;
+    reginalCard card = draw_from_top_areginal_card(&gameBoard.regional_deck);
+
+    for (int i = 0; i < SQUARE_COUNT; i++) {
+        enumSquareName name = gameBoard.squares[i].enumName;
 
         switch (card) {
             case SOUTHERN_TOURISM_BOOM:
-                if (name == SQUARE_GALLE_FORT || 
-                    name == SQUARE_UNAWATUNA || 
+                if (name == SQUARE_GALLE_FORT ||
+                    name == SQUARE_UNAWATUNA ||
                     name == SQUARE_HIKKADUWA) {
-                        printf("\nGalle Fort, Unawatuna and Hikkaduwa rental income +40%%\n");
-                    board->squares[i].property.Base_Rental+=board->squares[i].property.Base_Rental* 0.40;
+                    printf("\nGalle Fort, Unawatuna and Hikkaduwa rental income +40%%\n");
+                    gameBoard.squares[i].property.Base_Rental += gameBoard.squares[i].property.Base_Rental * 0.40;
                 }
-               
                 break;
 
-            case PORT_EXPANSION:
-    printf("% Port Expansion. Railway values may rise.\n");
-    for (int r = 0; r < 40; r++)
-    {
-        if (gameBoard.squares[r].square_type == Railway)
-        {
-            gameBoard.squares[r].railway.railway_morgadge_price =
-                gameBoard.squares[r].railway.railway_morgadge_price * 2;
-        }
-    }
-    break;
+            case PORT_CITY_EXPANSION:
+                if (name == SQUARE_PETTAH || name == SQUARE_MARADANA) {
+                    printf("\nPettah, Maradana and Colombo Fort Station values +25%%\n");
+                    gameBoard.squares[i].property.Purchase_Price += gameBoard.squares[i].property.Purchase_Price * 0.25;
+                } else if (name == SQUARE_COLOMBO_FORT_RAILWAY_STATION) {
+                    printf("\nColombo Fort Station value +25%%\n");
+                    gameBoard.squares[i].railway.Purchase_Price += gameBoard.squares[i].railway.Purchase_Price * 0.25;
+                }
+                break;
 
             case IT_INDUSTRY_GROWTH:
-                if (name == SQUARE_MAHARAGAMA || 
-                    name == SQUARE_NUGEGODA || 
-                    name == SQUARE_KOTTAWA) {printf("\nMaharagama, Nugegoda and Kottawa values +20%%\n");
-                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.20;
+                if (name == SQUARE_MAHARAGAMA ||
+                    name == SQUARE_NUGEGODA ||
+                    name == SQUARE_KOTTAWA) {
+                    printf("\nMaharagama, Nugegoda and Kottawa values +20%%\n");
+                    gameBoard.squares[i].property.Purchase_Price += gameBoard.squares[i].property.Purchase_Price * 0.20;
                 }
                 break;
 
             case NORTHERN_DEVELOPMENT_PROGRAMME:
-                if (name == SQUARE_JAFFNA_TOWN || 
-                    name == SQUARE_NALLUR || 
-                    name == SQUARE_TRINCOMALEE) {printf("\nJaffna Town, Nallur and Trincomalee values +30%%\n");
-                    board->squares[i].property.Purchase_Price+=board->squares[i].property.Base_Rental* 0.30;
+                if (name == SQUARE_JAFFNA_TOWN ||
+                    name == SQUARE_NALLUR ||
+                    name == SQUARE_TRINCOMALEE) {
+                    printf("\nJaffna Town, Nallur and Trincomalee values +30%%\n");
+                    gameBoard.squares[i].property.Purchase_Price += gameBoard.squares[i].property.Purchase_Price * 0.30;
                 }
                 break;
 
             case TEA_EXPORT_BOOM:
-                if (name == SQUARE_NUWARA_ELIYA) {printf("\nNuwara Eliya value +35%%\n");
-                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.35;
+                if (name == SQUARE_NUWARA_ELIYA) {
+                    printf("\nNuwara Eliya value +35%%\n");
+                    gameBoard.squares[i].property.Purchase_Price += gameBoard.squares[i].property.Purchase_Price * 0.35;
                 }
                 break;
 
             case AIRPORT_EXPANSION:
-                if (name == SQUARE_NEGOMBO || 
-                    name == SQUARE_KATUNAYAKE || 
-                    name == SQUARE_JA_ELA) {printf("\nNegombo, Katunayake and Ja-Ela rents +30%%\n");
-                    board->squares[i].property.Base_Rental +=board->squares[i].property.Base_Rental* 0.30;
+                if (name == SQUARE_NEGOMBO ||
+                    name == SQUARE_KATUNAYAKE ||
+                    name == SQUARE_JA_ELA) {
+                    printf("\nNegombo, Katunayake and Ja-Ela rents +30%%\n");
+                    gameBoard.squares[i].property.Base_Rental += gameBoard.squares[i].property.Base_Rental * 0.30;
                 }
                 break;
 
             case UNIVERSITY_CITY_GROWTH:
-                if (name == SQUARE_PERADENIYA || name == SQUARE_KANDY_CITY) {printf("\nPeradeniya and Kandy City values +20%%\n");
-                    board->squares[i].property.Purchase_Price+=board->squares[i].property.Base_Rental* 0.20;
+                if (name == SQUARE_PERADENIYA || name == SQUARE_KANDY_CITY) {
+                    printf("\nPeradeniya and Kandy City values +20%%\n");
+                    gameBoard.squares[i].property.Purchase_Price += gameBoard.squares[i].property.Purchase_Price * 0.20;
                 }
                 break;
 
             case BEACH_POLLUTION:
-                if (name == SQUARE_GALLE_FORT || 
-                    name == SQUARE_UNAWATUNA || 
-                    name == SQUARE_HIKKADUWA || 
-                    name == SQUARE_MOUNT_LAVINIA) {printf("\nSouthern coastal rents -30%%\n");
-                    board->squares[i].property.Base_Rental -=board->squares[i].property.Base_Rental* 0.30;
+                if (name == SQUARE_GALLE_FORT ||
+                    name == SQUARE_UNAWATUNA ||
+                    name == SQUARE_HIKKADUWA ||
+                    name == SQUARE_MOUNT_LAVINIA) {
+                    printf("\nSouthern coastal rents -30%%\n");
+                    gameBoard.squares[i].property.Base_Rental -= gameBoard.squares[i].property.Base_Rental * 0.30;
                 }
                 break;
 
             case FLOOD_DAMAGE:
-                if (name == SQUARE_PETTAH || 
-                    name == SQUARE_WELLAWATTE || 
-                    name == SQUARE_BAMBALAPITIYA) {printf("\nLow-lying coastal properties lose 20%% value\n");
-                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.80;
+                if (name == SQUARE_PETTAH ||
+                    name == SQUARE_WELLAWATTE ||
+                    name == SQUARE_BAMBALAPITIYA) {
+
+                    printf("\nLow-lying coastal properties lose 20%% value\n");
+
+                    gameBoard.squares[i].property.current_market_value -=
+                        gameBoard.squares[i].property.current_market_value * 0.20;
+
+                    destroy_buildings_on_property(&gameBoard, i);
                 }
                 break;
 
             case TRANSPORT_STRIKE:
-                if (board->squares[i].square_type == Railway) {printf("\nRailway revenue reduced by 40%%\n");
-                    board->squares[i].railway.Purchase_Price +=board->squares[i].property.Base_Rental* 0.60;
+                if (gameBoard.squares[i].square_type == Railway) {
+                    printf("\nRailway revenue reduced by 40%%\n");
+                    gameBoard.squares[i].railway.Purchase_Price -= gameBoard.squares[i].railway.Purchase_Price * 0.40;
                 }
                 break;
 
             case ELECTRICITY_TARIFF_INCREASE:
-                if (board->squares[i].square_type == Utility) {printf("Utility rent +25%%\n");
-                    board->squares[i].utility.Purchase_Price +=board->squares[i].property.Base_Rental* 0.25;
+                if (gameBoard.squares[i].square_type == Utility) {
+                    printf("Utility rent +25%%\n");
+                    gameBoard.squares[i].utility.Purchase_Price += gameBoard.squares[i].utility.Purchase_Price * 0.25;
                 }
                 break;
 
             case WATER_SHORTAGE:
-                if (name == SQUARE_NATIONAL_WATER_SUPPLY_BOARD) {printf("Water utility revenue +20%%; \n");
-                    board->squares[i].utility.Purchase_Price +=board->squares[i].property.Base_Rental*0.20;
-                } else if (board->squares[i].square_type == Property) {printf("\nSurrounding properties -10%%\n");
-                    board->squares[i].property.Purchase_Price-=board->squares[i].property.Base_Rental* 0.10;
+                if (name == SQUARE_NATIONAL_WATER_SUPPLY_BOARD) {
+                    printf("Water utility revenue +20%%; \n");
+                    gameBoard.squares[i].utility.Purchase_Price += gameBoard.squares[i].utility.Purchase_Price * 0.20;
+                } else if (gameBoard.squares[i].square_type == Property) {
+                    printf("\nSurrounding properties -10%%\n");
+                    gameBoard.squares[i].property.Purchase_Price -= gameBoard.squares[i].property.Purchase_Price * 0.10;
                 }
                 break;
 
             default:
-            
                 break;
         }
     }
 
+    current_market_state.regional_development_percentage = 20;
+    current_market_state.regional_development_expiration_round = current_round + 12;
+    snprintf(current_market_state.regional_development_name,
+             sizeof(current_market_state.regional_development_name),
+             "%s", CARD_NAMES[card]);
 }
-
-
 
 
 

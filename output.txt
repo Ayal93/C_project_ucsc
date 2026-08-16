@@ -1,0 +1,7279 @@
+MONOPOLY-LK Simulation
+
+Player 1 : Aggressive Investor
+Player 2 : Conservative Banker
+Player 3 : Risk Taker
+Player 4 : Opportunistic Trader
+
+Each player begins with LKR 30,000.
+
+
+Risk Taker rolls 8
+Aggressive Investor rolls 7
+Conservative Banker rolls 5
+Opportunistic Trader rolls 2
+
+
+Risk Taker will begin the game.
+
+
+Turn Order:
+Risk Taker
+Aggressive Investor
+Conservative Banker
+Opportunistic Trader
+
+
+--------------------$$$-------------------
+Risk Taker rolled 12.
+Risk Taker moves from Square 0 to 12
+0 is player Risk Taker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 0 to 9
+0 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Mount Lavinia for LKR  3000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 4.
+Conservative Banker moves from Square 0 to 4
+0 is player Conservative Banker's current round number
+
+
+--- Income Tax ---
+Conservative Banker landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 30000
+Conservative Banker paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 28000
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 0 to 9
+0 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1500.
+
+Risk Taker bids LKR 1500.
+
+Aggressive Investor bids LKR 1750.
+
+Conservative Banker bids LKR 2000.
+
+Opportunistic Trader bids LKR 2250.
+
+Risk Taker bids LKR 2500.
+
+Aggressive Investor bids LKR 2750.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Risk Taker bids LKR 3000.
+
+Aggressive Investor bids LKR 3250.
+
+Risk Taker bids LKR 3500.
+
+Aggressive Investor withdraws.
+
+Risk Taker wins the auction.
+
+Opportunistic Trader landed on Mount Lavinia
+Rent paid: LKR 242
+Owner: Risk Taker
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 6.
+Risk Taker moves from Square 12 to 18
+0 is player Risk Taker's current round number
+
+Risk Taker purchasaed Katunayake for LKR  4700.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 9 to 18
+0 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Katunayake
+
+Opening Bid :
+LKR 2350.
+
+Risk Taker bids LKR 2350.
+
+Aggressive Investor bids LKR 2600.
+
+Conservative Banker bids LKR 2850.
+
+Opportunistic Trader bids LKR 3100.
+
+Risk Taker bids LKR 3350.
+
+Aggressive Investor bids LKR 3600.
+
+Conservative Banker bids LKR 3850.
+
+Opportunistic Trader bids LKR 4100.
+
+Risk Taker bids LKR 4350.
+
+Aggressive Investor bids LKR 4600.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Risk Taker bids LKR 4850.
+
+Aggressive Investor bids LKR 5100.
+
+Risk Taker bids LKR 5350.
+
+Aggressive Investor bids LKR 5600.
+
+Risk Taker bids LKR 5850.
+
+Aggressive Investor withdraws.
+
+Risk Taker wins the auction.
+
+Aggressive Investor landed on Katunayake
+Rent paid: LKR 407
+Owner: Risk Taker
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 5.
+Conservative Banker moves from Square 4 to 9
+0 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1500.
+
+Risk Taker bids LKR 1500.
+
+Aggressive Investor bids LKR 1750.
+
+Conservative Banker bids LKR 2000.
+
+Opportunistic Trader bids LKR 2250.
+
+Risk Taker bids LKR 2500.
+
+Aggressive Investor bids LKR 2750.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Risk Taker bids LKR 3000.
+
+Aggressive Investor bids LKR 3250.
+
+Risk Taker bids LKR 3500.
+
+Aggressive Investor withdraws.
+
+Risk Taker wins the auction.
+
+Conservative Banker landed on Mount Lavinia
+Rent paid: LKR 242
+Owner: Risk Taker
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader moves from Square 9 to 20
+0 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 8.
+Risk Taker moves from Square 18 to 26
+0 is player Risk Taker's current round number
+
+Risk Taker purchasaed Galle Fort for LKR  6500.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 3.
+Aggressive Investor moves from Square 18 to 21
+0 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Kandy City for LKR  5500. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 4.
+Conservative Banker moves from Square 9 to 13
+0 is player Conservative Banker's current round number
+
+Conservative Banker purchasaed Maharagama for LKR  3800.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 20 to 27
+0 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Unawatuna for LKR  6800.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 9.
+Risk Taker moves from Square 26 to 35
+0 is player Risk Taker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 21 to 28
+0 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 13 to 22
+0 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Tourism Hype
+========================================
+
+Tourism Hype
+Conservative Banker benefits from Tourism Hype! +LKR 500.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 4.
+Opportunistic Trader moves from Square 27 to 31
+0 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Jaffna Town for LKR  8000.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 4.
+Risk Taker moves from Square 35 to 39
+0 is player Risk Taker's current round number
+
+Risk Taker purchasaed Galle Face for LKR  12000.000000. 
+Risk Taker's cash is negative (LKR -6279). Attempting to raise funds...
+Risk Taker mortgaged Mount Lavinia for LKR 1500.
+Risk Taker mortgaged Katunayake for LKR 2350.
+Risk Taker mortgaged Katunayake for LKR 2350.
+Risk Taker mortgaged Mount Lavinia for LKR 1500.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 3.
+Aggressive Investor moves from Square 28 to 31
+0 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Jaffna Town
+
+Opening Bid :
+LKR 4000.
+
+Risk Taker withdraws.
+
+Aggressive Investor bids LKR 4000.
+
+Conservative Banker bids LKR 4250.
+
+Opportunistic Trader bids LKR 4500.
+
+Aggressive Investor bids LKR 4750.
+
+Conservative Banker bids LKR 5000.
+
+Opportunistic Trader bids LKR 5250.
+
+Aggressive Investor bids LKR 5500.
+
+Conservative Banker bids LKR 5750.
+
+Opportunistic Trader bids LKR 6000.
+
+Aggressive Investor bids LKR 6250.
+
+Conservative Banker bids LKR 6500.
+
+Opportunistic Trader bids LKR 6750.
+
+Aggressive Investor bids LKR 7000.
+
+Conservative Banker bids LKR 7250.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor bids LKR 7500.
+
+Conservative Banker bids LKR 7750.
+
+Aggressive Investor bids LKR 8000.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 22 to 29
+0 is player Conservative Banker's current round number
+
+Conservative Banker purchasaed Hikkaduwa for LKR  7000.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 12.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 15478.
+Opportunistic Trader moves from Square 31 to 3
+1 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Maradana for LKR  1800.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 3.
+Risk Taker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2221.
+Risk Taker moves from Square 39 to 2
+1 is player Risk Taker's current round number
+
+
+Risk Taker landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Fuel Shortage
+========================================
+
+Fuel Shortage
+Risk Taker pays LKR 200 due to Fuel Shortage.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 13443.
+Aggressive Investor moves from Square 31 to 2
+1 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Heavy Floods
+========================================
+
+Heavy Floods
+Aggressive Investor pays LKR 400 in flood damage.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 29 to 38
+0 is player Conservative Banker's current round number
+
+Conservative Banker landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 3 to 10
+1 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 7.
+Risk Taker moves from Square 2 to 9
+1 is player Risk Taker's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1500.
+
+Risk Taker bids LKR 1500.
+
+Aggressive Investor bids LKR 1750.
+
+Conservative Banker bids LKR 2000.
+
+Opportunistic Trader bids LKR 2250.
+
+Risk Taker withdraws.
+
+Aggressive Investor bids LKR 2500.
+
+Conservative Banker bids LKR 2750.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor bids LKR 3000.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+Risk Taker landed on Mount Lavinia
+Rent paid: LKR 242
+Owner: Aggressive Investor
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 2 to 6
+1 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Bambalapitiya for LKR  2500. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 18378.
+Conservative Banker moves from Square 38 to 7
+1 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Political Rally
+========================================
+
+Political Rally
+Conservative Banker is delayed by a Political Rally. No effect this turn.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader moves from Square 10 to 21
+1 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Kandy City
+
+Opening Bid :
+LKR 2750.
+
+Risk Taker withdraws.
+
+Aggressive Investor bids LKR 2750.
+
+Conservative Banker bids LKR 3000.
+
+Opportunistic Trader bids LKR 3250.
+
+Aggressive Investor bids LKR 3500.
+
+Conservative Banker bids LKR 3750.
+
+Opportunistic Trader bids LKR 4000.
+
+Aggressive Investor bids LKR 4250.
+
+Conservative Banker bids LKR 4500.
+
+Opportunistic Trader bids LKR 4750.
+
+Aggressive Investor bids LKR 5000.
+
+Conservative Banker bids LKR 5250.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor bids LKR 5500.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+Opportunistic Trader landed on Kandy City
+Rent paid: LKR 495
+Owner: Aggressive Investor
+
+-----------------------$$$-------------------
+
+************************************
+
+=======================================
+Round 1 Summary
+=======================================
+
+Risk Taker
+
+Cash : LKR 1779
+
+Net Worth : LKR 12479
+
+Properties : 6
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 2530
+
+Net Worth : LKR 19030
+
+Properties : 6
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 18378
+
+Net Worth : LKR 18378
+
+Properties : 2
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 13003
+
+Net Worth : LKR 13003
+
+Properties : 3
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+
+--------------------$$$-------------------
+Risk Taker rolled 6.
+Risk Taker moves from Square 9 to 15
+1 is player Risk Taker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 6 to 12
+1 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker moves from Square 7 to 17
+1 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 6.
+Opportunistic Trader moves from Square 21 to 27
+1 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Unawatuna
+
+Opening Bid :
+LKR 3400.
+
+Risk Taker withdraws.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 3400.
+
+Opportunistic Trader bids LKR 3650.
+
+Conservative Banker bids LKR 3900.
+
+Opportunistic Trader bids LKR 4150.
+
+Conservative Banker bids LKR 4400.
+
+Opportunistic Trader bids LKR 4650.
+
+Conservative Banker bids LKR 4900.
+
+Opportunistic Trader bids LKR 5150.
+
+Conservative Banker bids LKR 5400.
+
+Opportunistic Trader bids LKR 5650.
+
+Conservative Banker bids LKR 5900.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+Opportunistic Trader landed on Unawatuna
+Rent paid: LKR 682
+Owner: Conservative Banker
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 8.
+Risk Taker moves from Square 15 to 23
+1 is player Risk Taker's current round number
+
+Risk Taker purchasaed Peradeniya for LKR  5800.000000. 
+Risk Taker's cash is negative (LKR -4021). Attempting to raise funds...
+Risk Taker mortgaged Galle Fort for LKR 3250.
+Risk Taker mortgaged Galle Face for LKR 6000.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 12 to 20
+1 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 17 to 25
+1 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 27 to 34
+1 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Trincomalee for LKR  8500.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 7.
+Risk Taker moves from Square 23 to 30
+1 is player Risk Taker's current round number
+
+Risk Taker landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor moves from Square 20 to 31
+1 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Jaffna Town
+
+Opening Bid :
+LKR 4000.
+
+Risk Taker bids LKR 4000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 4250.
+
+Opportunistic Trader withdraws.
+
+Risk Taker bids LKR 4500.
+
+Conservative Banker bids LKR 4750.
+
+Risk Taker withdraws.
+
+Conservative Banker wins the auction.
+
+Aggressive Investor landed on Jaffna Town
+Rent paid: LKR 908
+Owner: Conservative Banker
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 25 to 33
+1 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 4971.
+Opportunistic Trader moves from Square 34 to 5
+2 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Risk Taker paid bail of LKR 300.00 and is released from Jail.
+
+--------------------$$$-------------------
+Risk Taker rolled 9.
+Risk Taker moves from Square 10 to 19
+1 is player Risk Taker's current round number
+
+Risk Taker purchasaed Ja-Ela for LKR  5000.000000. 
+Risk Taker's cash is negative (LKR -651). Attempting to raise funds...
+Risk Taker mortgaged Peradeniya for LKR 2900.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 31 to 38
+1 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 11318.
+Conservative Banker moves from Square 33 to 0
+2 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 5 to 12
+2 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 11.
+Risk Taker moves from Square 19 to 30
+1 is player Risk Taker's current round number
+
+Risk Taker landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3623.
+Aggressive Investor moves from Square 38 to 2
+2 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Stock Market Rise
+========================================
+
+Stock Market Rise
+Aggressive Investor gains LKR 300 from a Stock Market Rise.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 0 to 6
+2 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Bambalapitiya
+
+Opening Bid :
+LKR 1250.
+
+Risk Taker bids LKR 1250.
+
+Aggressive Investor bids LKR 1500.
+
+Conservative Banker bids LKR 1750.
+
+Opportunistic Trader bids LKR 2000.
+
+Risk Taker withdraws.
+
+Aggressive Investor bids LKR 2250.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor wins the auction.
+
+Conservative Banker landed on Bambalapitiya
+Rent paid: LKR 198
+Owner: Aggressive Investor
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 10.
+Opportunistic Trader moves from Square 12 to 22
+2 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Economic Downturn
+========================================
+
+Economic Downturn
+Opportunistic Trader loses LKR 300 due to an Economic Downturn.
+
+
+-----------------------$$$-------------------
+
+Risk Taker paid bail of LKR 300.00 and is released from Jail.
+
+--------------------$$$-------------------
+Risk Taker rolled 6.
+Risk Taker moves from Square 10 to 16
+1 is player Risk Taker's current round number
+
+Risk Taker purchasaed Negombo for LKR  4500.000000. 
+Risk Taker's cash is negative (LKR -3051). Attempting to raise funds...
+Risk Taker mortgaged Ja-Ela for LKR 2500.
+Risk Taker mortgaged Negombo for LKR 2250.
+Risk Taker built a house on Negombo
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 2 to 7
+2 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Housing Subsidy
+========================================
+
+Housing Subsidy
+Aggressive Investor receives a Housing Subsidy of LKR 250.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 6 to 14
+2 is player Conservative Banker's current round number
+
+Conservative Banker purchasaed Kottawa for LKR  4000.000000. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader moves from Square 22 to 30
+2 is player Opportunistic Trader's current round number
+
+Opportunistic Trader landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Risk Taker rolled 8.
+Risk Taker moves from Square 16 to 24
+1 is player Risk Taker's current round number
+
+Risk Taker purchasaed Katugastota for LKR  6000.000000. 
+Risk Taker's cash is negative (LKR -5614). Attempting to raise funds...
+Risk Taker mortgaged Katugastota for LKR 3000.
+Risk Taker could not raise enough funds. Declaring bankruptcy...
+  Loan Default
+
+Risk Taker has defaulted.
+
+Collateral has been foreclosed.
+
+Outstanding debt cleared.
+
+Risk Taker has no remaining assets and is declared BANKRUPT.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 7 to 11
+2 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Nugegoda for LKR  3500. 
+Aggressive Investor's cash is negative (LKR -1380). Attempting to raise funds...
+Aggressive Investor mortgaged Mount Lavinia for LKR 1500.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 14 to 22
+2 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Interest Rate Cut
+========================================
+
+Interest Rate Cut
+Conservative Banker benefits from lower loan interest this round.
+
+
+-----------------------$$$-------------------
+
+Opportunistic Trader paid bail of LKR 300.00 and is released from Jail.
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 10 to 17
+2 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+************************************
+
+=======================================
+Round 2 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 121
+
+Net Worth : LKR 19121
+
+Properties : 8
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 6720
+
+Net Worth : LKR 21520
+
+Properties : 5
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 4371
+
+Net Worth : LKR 4371
+
+Properties : 4
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 11 to 16
+2 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Negombo
+
+Opening Bid :
+LKR 2250.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 2250.
+
+Opportunistic Trader bids LKR 2500.
+
+Conservative Banker bids LKR 2750.
+
+Opportunistic Trader bids LKR 3000.
+
+Conservative Banker bids LKR 3250.
+
+Opportunistic Trader bids LKR 3500.
+
+Conservative Banker bids LKR 3750.
+
+Opportunistic Trader bids LKR 4000.
+
+Conservative Banker bids LKR 4250.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+Aggressive Investor landed on Negombo
+Rent paid: LKR 630
+Owner: Conservative BankerAggressive Investor's cash is negative (LKR -510). Attempting to raise funds...
+Aggressive Investor mortgaged Kandy City for LKR 2750.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 22 to 31
+2 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Jaffna Town
+
+Opening Bid :
+LKR 4000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 4000.
+
+Opportunistic Trader wins the auction.
+
+Conservative Banker landed on Jaffna Town
+Rent paid: LKR 908
+Owner: Opportunistic Trader
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 6.
+Opportunistic Trader moves from Square 17 to 23
+2 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Peradeniya
+
+Opening Bid :
+LKR 2900.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 16 to 21
+2 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Kandy City
+
+Opening Bid :
+LKR 2750.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 31 to 38
+2 is player Conservative Banker's current round number
+
+Conservative Banker landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 10.
+Opportunistic Trader moves from Square 23 to 33
+2 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 21 to 25
+2 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 4192.
+Conservative Banker moves from Square 38 to 9
+3 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1500.
+
+Aggressive Investor bids LKR 1500.
+
+Conservative Banker bids LKR 1750.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor bids LKR 2000.
+
+Conservative Banker bids LKR 2250.
+
+Aggressive Investor withdraws.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 33 to 38
+2 is player Opportunistic Trader's current round number
+
+   Obtaining a Loan at Bank of Ceylon
+
+Opportunistic Trader obtained a secured loan.
+
+Loan Amount : LKR 12413.
+
+Collateral :
+
+
+
+
+
+
+Interest Rate : 0%
+Duration : 20 Rounds
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 25 to 31
+2 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Jaffna Town
+
+Opening Bid :
+LKR 4000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 4000.
+
+Opportunistic Trader wins the auction.
+
+Aggressive Investor landed on Jaffna Town
+Rent paid: LKR 908
+Owner: Opportunistic Trader
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 9 to 17
+3 is player Conservative Banker's current round number
+
+
+Purchasing Insurance
+
+Comprehensive Insurance purchased.
+
+Property : Negombo
+
+Premium : LKR 450.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 12599.
+Opportunistic Trader moves from Square 38 to 5
+3 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3333.
+Aggressive Investor moves from Square 31 to 1
+3 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Pettah for LKR  1500. 
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker moves from Square 17 to 28
+3 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 12.
+Opportunistic Trader moves from Square 5 to 17
+3 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Conservative Banker performed maintenance on Negombo for LKR 63. Condition restored to 100%.
+=======================================
+Round 3 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 1683
+
+Net Worth : LKR 20683
+
+Properties : 9
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1130
+
+Net Worth : LKR 24680
+
+Properties : 7
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 12599
+
+Net Worth : LKR 16186
+
+Properties : 6
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 1 to 11
+3 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Nugegoda
+
+Opening Bid :
+LKR 1750.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 1750.
+
+Opportunistic Trader wins the auction.
+
+Aggressive Investor landed on Nugegoda
+Rent paid: LKR 260
+Owner: Opportunistic Trader
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 28 to 36
+3 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Interest Rate Increase
+========================================
+
+Interest Rate Increase
+Conservative Banker faces higher loan interest this round.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 3.
+Opportunistic Trader moves from Square 17 to 20
+3 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 11 to 15
+3 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3130.
+Conservative Banker moves from Square 36 to 4
+4 is player Conservative Banker's current round number
+
+
+--- Income Tax ---
+Conservative Banker landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 3130
+Conservative Banker paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 1130
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 4.
+Opportunistic Trader moves from Square 20 to 24
+3 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Katugastota
+
+Opening Bid :
+LKR 3000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 3000.
+
+Opportunistic Trader wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 15 to 24
+3 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Katugastota
+
+Opening Bid :
+LKR 3000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 3000.
+
+Opportunistic Trader wins the auction.
+
+Aggressive Investor landed on Katugastota
+Rent paid: LKR 550
+Owner: Opportunistic Trader
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 4.
+Conservative Banker moves from Square 4 to 8
+4 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 24 to 33
+3 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 3.
+Aggressive Investor moves from Square 24 to 27
+3 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Unawatuna
+
+Opening Bid :
+LKR 3400.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 3400.
+
+Opportunistic Trader wins the auction.
+
+Aggressive Investor landed on Unawatuna
+Rent paid: LKR 682
+Owner: Opportunistic Trader
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 8 to 15
+4 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 4341.
+Opportunistic Trader moves from Square 33 to 2
+4 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Tax Amnesty
+========================================
+
+Tax Amnesty
+Opportunistic Trader saves LKR 150 thanks to a Tax Amnesty.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 27 to 36
+3 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Power Failure
+========================================
+
+Power Failure
+Aggressive Investor pays LKR 100 for Power Failure repairs.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker moves from Square 15 to 25
+4 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader moves from Square 2 to 10
+4 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 2.
+Aggressive Investor moves from Square 36 to 38
+3 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 25 to 32
+4 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 4.
+Opportunistic Trader moves from Square 10 to 14
+4 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Kottawa
+
+Opening Bid :
+LKR 2000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 2000.
+
+Opportunistic Trader wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2091.
+Aggressive Investor moves from Square 38 to 5
+4 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 32 to 39
+4 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Galle Face
+
+Opening Bid :
+LKR 6000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 14 to 19
+4 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Ja-Ela
+
+Opening Bid :
+LKR 2500.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Conservative Banker renovated Negombo for LKR 313. Property value, rent, and condition restored.
+=======================================
+Round 4 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 2091
+
+Net Worth : LKR 21091
+
+Properties : 9
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 817
+
+Net Worth : LKR 24367
+
+Properties : 7
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 2091
+
+Net Worth : LKR 31978
+
+Properties : 11
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 5 to 13
+4 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maharagama
+
+Opening Bid :
+LKR 1900.
+
+Aggressive Investor bids LKR 1900.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2817.
+Conservative Banker moves from Square 39 to 5
+5 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 19 to 24
+4 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Katugastota
+
+Opening Bid :
+LKR 3000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 13 to 23
+4 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 5 to 14
+5 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Kottawa
+
+Opening Bid :
+LKR 2000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 2000.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 10.
+Opportunistic Trader moves from Square 24 to 34
+4 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Trincomalee
+
+Opening Bid :
+LKR 4250.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 23 to 29
+4 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Hikkaduwa
+
+Opening Bid :
+LKR 3500.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 14 to 20
+5 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 4091.
+Opportunistic Trader moves from Square 34 to 2
+5 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Foreign Funding
+========================================
+
+Foreign Funding
+Opportunistic Trader receives LKR 600 in Foreign Funding.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 29 to 33
+4 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker moves from Square 20 to 31
+5 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Jaffna Town
+
+Opening Bid :
+LKR 4000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 4000.
+
+Opportunistic Trader wins the auction.
+
+Conservative Banker landed on Jaffna Town
+Rent paid: LKR 908
+Owner: Opportunistic TraderConservative Banker's cash is negative (LKR -491). Attempting to raise funds...
+Conservative Banker mortgaged Maharagama for LKR 1900.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 2 to 11
+5 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Nugegoda
+
+Opening Bid :
+LKR 1750.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 33 to 37
+4 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 31 to 38
+5 is player Conservative Banker's current round number
+
+Conservative Banker landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 11 to 16
+5 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Negombo
+
+Opening Bid :
+LKR 2250.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2191.
+Aggressive Investor moves from Square 37 to 3
+5 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 900.
+
+Aggressive Investor bids LKR 900.
+
+Conservative Banker bids LKR 1150.
+
+Opportunistic Trader bids LKR 1400.
+
+Aggressive Investor bids LKR 1650.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor wins the auction.
+Aggressive Investor built a house on Pettah
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3410.
+Conservative Banker moves from Square 38 to 5
+6 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 16 to 23
+5 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Peradeniya for LKR  5800.000000. 
+Opportunistic Trader's cash is negative (LKR -4202). Attempting to raise funds...
+Opportunistic Trader mortgaged Jaffna Town for LKR 4000.
+Opportunistic Trader mortgaged Nugegoda for LKR 1750.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor performed maintenance on Pettah for LKR 25. Condition restored to 100%.
+=======================================
+Round 5 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 16
+
+Net Worth : LKR 24262
+
+Properties : 11
+
+Hotels : 0
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 3410
+
+Net Worth : LKR 30960
+
+Properties : 8
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 968
+
+Net Worth : LKR 44656
+
+Properties : 13
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 3 to 10
+5 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 5 to 13
+6 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Maharagama
+
+Opening Bid :
+LKR 1900.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1900.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader moves from Square 23 to 31
+5 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Jaffna Town
+
+Opening Bid :
+LKR 4000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 10 to 14
+5 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Kottawa
+
+Opening Bid :
+LKR 2000.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker moves from Square 13 to 23
+6 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Peradeniya
+
+Opening Bid :
+LKR 2900.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 3.
+Opportunistic Trader moves from Square 31 to 34
+5 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 14 to 24
+5 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 3.
+Conservative Banker moves from Square 23 to 26
+6 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Galle Fort
+
+Opening Bid :
+LKR 3250.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2968.
+Opportunistic Trader moves from Square 34 to 2
+6 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Port Expansion
+========================================
+
+Port Expansion
+ Port Expansion. Railway values may rise.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 24 to 33
+5 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker moves from Square 26 to 36
+6 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Festival Season
+========================================
+
+Festival Season
+Conservative Banker earns LKR 200 during Festival Season.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 2 to 9
+6 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1500.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 1500.
+
+Opportunistic Trader wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 33 to 39
+5 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3330.
+Conservative Banker moves from Square 36 to 4
+7 is player Conservative Banker's current round number
+
+
+--- Income Tax ---
+Conservative Banker landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 3330
+Conservative Banker paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 1330
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 3.
+Opportunistic Trader moves from Square 9 to 12
+6 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2016.
+Aggressive Investor moves from Square 39 to 7
+6 is player Aggressive Investor's current round number
+
+Aggressive Investor built a house on Maradana
+Aggressive Investor built a house on Maradana
+
+Aggressive Investor landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Labour Strike
+========================================
+
+Labour Strike
+Aggressive Investor loses LKR 250 due to a Labour Strike.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 4 to 11
+7 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 12 to 19
+6 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor performed maintenance on Pettah for LKR 25. Condition restored to 100%.
+Aggressive Investor performed maintenance on Maradana for LKR 50. Condition restored to 100%.
+=======================================
+Round 6 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 691
+
+Net Worth : LKR 24937
+
+Properties : 11
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1330
+
+Net Worth : LKR 32680
+
+Properties : 9
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 1168
+
+Net Worth : LKR 47826
+
+Properties : 14
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 7 to 12
+6 is player Aggressive Investor's current round number
+
+Aggressive Investor built a house on Pettah
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 4.
+Conservative Banker moves from Square 11 to 15
+7 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 19 to 24
+6 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 12 to 19
+6 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 15 to 21
+7 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 24 to 33
+6 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 12.
+Aggressive Investor moves from Square 19 to 31
+6 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 2.
+Conservative Banker moves from Square 21 to 23
+7 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3168.
+Opportunistic Trader moves from Square 33 to 4
+7 is player Opportunistic Trader's current round number
+
+
+--- Income Tax ---
+Opportunistic Trader landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 3168
+Opportunistic Trader paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 1168
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 31 to 36
+6 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Insurance Discount
+========================================
+
+Insurance Discount
+Aggressive Investor gets a discount on their next insurance purchase.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 5.
+Conservative Banker moves from Square 23 to 28
+7 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 4 to 9
+7 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1500.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 2.
+Aggressive Investor moves from Square 36 to 38
+6 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 28 to 35
+7 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 6.
+Opportunistic Trader moves from Square 9 to 15
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2191.
+Aggressive Investor moves from Square 38 to 7
+7 is player Aggressive Investor's current round number
+
+Aggressive Investor built a house on Pettah
+Aggressive Investor built a house on Maradana
+Aggressive Investor built a house on Maradana
+
+Aggressive Investor landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Property Revaluation
+========================================
+
+Property Revaluation
+Aggressive Investor's properties are being revalued.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3330.
+Conservative Banker moves from Square 35 to 4
+8 is player Conservative Banker's current round number
+
+
+--- Income Tax ---
+Conservative Banker landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 3330
+Conservative Banker paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 1330
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader moves from Square 15 to 23
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor performed maintenance on Pettah for LKR 75. Condition restored to 100%.
+Aggressive Investor performed maintenance on Maradana for LKR 100. Condition restored to 100%.
+=======================================
+Round 7 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 516
+
+Net Worth : LKR 24762
+
+Properties : 11
+
+Hotels : 0
+
+Houses : 7
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1330
+
+Net Worth : LKR 32680
+
+Properties : 9
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 1168
+
+Net Worth : LKR 47826
+
+Properties : 14
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 7 to 16
+7 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Negombo for LKR  4500. 
+Aggressive Investor's cash is negative (LKR -3984). Attempting to raise funds...
+Aggressive Investor mortgaged Jaffna Town for LKR 4000.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 12.
+Conservative Banker moves from Square 4 to 16
+8 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Negombo
+
+Opening Bid :
+LKR 2250.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 23 to 30
+7 is player Opportunistic Trader's current round number
+
+Opportunistic Trader landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 16 to 24
+7 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 16 to 25
+8 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Opportunistic Trader paid bail of LKR 300.00 and is released from Jail.
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 10 to 19
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 24 to 30
+7 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 25 to 31
+8 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 6.
+Opportunistic Trader moves from Square 19 to 25
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+Aggressive Investor remains in Jail (1/3 turns served).
+
+--------------------$$$-------------------
+Conservative Banker rolled 3.
+Conservative Banker moves from Square 31 to 34
+8 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 25 to 30
+7 is player Opportunistic Trader's current round number
+
+Opportunistic Trader landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+Aggressive Investor remains in Jail (2/3 turns served).
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3330.
+Conservative Banker moves from Square 34 to 5
+9 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Opportunistic Trader paid bail of LKR 300.00 and is released from Jail.
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 10 to 15
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+Aggressive Investor remains in Jail (3/3 turns served).
+Aggressive Investor has served 3 turns and is released from Jail.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 10 to 17
+7 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 5 to 12
+9 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 15 to 20
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 17 to 27
+7 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Unawatuna
+
+Opening Bid :
+LKR 3400.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 12 to 19
+9 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 20 to 25
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 27 to 34
+7 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 19 to 28
+9 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 2.
+Opportunistic Trader moves from Square 25 to 27
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2016.
+Aggressive Investor moves from Square 34 to 2
+8 is player Aggressive Investor's current round number
+
+Aggressive Investor built a house on Pettah
+
+Aggressive Investor landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Currency Depreciation
+========================================
+
+Currency Depreciation
+Aggressive Investor loses LKR 350 due to Currency Depreciation.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker moves from Square 28 to 39
+9 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 3.
+Opportunistic Trader moves from Square 27 to 30
+7 is player Opportunistic Trader's current round number
+
+Opportunistic Trader landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 2 to 9
+8 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Mount Lavinia for LKR  3000. 
+Aggressive Investor's cash is negative (LKR -1834). Attempting to raise funds...
+Aggressive Investor mortgaged Mount Lavinia for LKR 1500.
+Aggressive Investor mortgaged Bambalapitiya for LKR 1250.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 5330.
+Conservative Banker moves from Square 39 to 9
+10 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1500.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1500.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+Opportunistic Trader paid bail of LKR 300.00 and is released from Jail.
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 4.
+Opportunistic Trader moves from Square 10 to 14
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 9 to 13
+8 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maharagama
+
+Opening Bid :
+LKR 1900.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1900.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+Aggressive Investor landed on Maharagama
+Rent paid: LKR 339
+Owner: Conservative Banker
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 9 to 17
+10 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 14 to 23
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 13 to 19
+8 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 17 to 24
+10 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 6.
+Opportunistic Trader moves from Square 23 to 29
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 19 to 28
+8 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 3.
+Conservative Banker moves from Square 24 to 27
+10 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 4.
+Opportunistic Trader moves from Square 29 to 33
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor moves from Square 28 to 39
+8 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 27 to 33
+10 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 33 to 38
+7 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2277.
+Aggressive Investor moves from Square 39 to 4
+9 is player Aggressive Investor's current round number
+
+Aggressive Investor built a HOTEL on Pettah
+
+--- Income Tax ---
+Aggressive Investor landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 277
+Aggressive Investor cannot afford the tax! Initiating debt recovery process...
+Aggressive Investor mortgaged Kandy City for LKR 2750.
+Aggressive Investor successfully cleared tax debt after mortgaging assets.
+Remaining Cash: LKR 1027
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3968.
+Conservative Banker moves from Square 33 to 0
+11 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 10.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2268.
+Opportunistic Trader moves from Square 38 to 8
+8 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Wellawatte for LKR  2700.000000. 
+Opportunistic Trader's cash is negative (LKR -432). Attempting to raise funds...
+Opportunistic Trader mortgaged Katugastota for LKR 3000.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor renovated Pettah for LKR 500. Property value, rent, and condition restored.
+Aggressive Investor renovated Maradana for LKR 500. Property value, rent, and condition restored.
+=======================================
+Round 8 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 27
+
+Net Worth : LKR 33023
+
+Properties : 13
+
+Hotels : 1
+
+Houses : 4
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 3968
+
+Net Worth : LKR 42042
+
+Properties : 11
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 2298
+
+Net Worth : LKR 51656
+
+Properties : 15
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 4 to 12
+9 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 0 to 7
+11 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Government Grant
+========================================
+
+Government Grant
+Conservative Banker receives a Government Grant of LKR 700.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 8 to 13
+8 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Maharagama
+
+Opening Bid :
+LKR 1900.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1900.
+
+Opportunistic Trader bids LKR 2150.
+
+Conservative Banker bids LKR 2400.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+Opportunistic Trader landed on Maharagama
+Rent paid: LKR 339
+Owner: Conservative Banker
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 12.
+Aggressive Investor moves from Square 12 to 24
+9 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 7 to 16
+11 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 6.
+Opportunistic Trader moves from Square 13 to 19
+8 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Ja-Ela for LKR  5000.000000. 
+Opportunistic Trader's cash is negative (LKR -3041). Attempting to raise funds...
+Opportunistic Trader mortgaged Katugastota for LKR 3000.
+Opportunistic Trader mortgaged Unawatuna for LKR 3400.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 24 to 32
+9 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker moves from Square 16 to 26
+11 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 19 to 28
+8 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 32 to 38
+9 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 26 to 33
+11 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader moves from Square 28 to 39
+8 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2027.
+Aggressive Investor moves from Square 38 to 3
+10 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 900.
+
+Aggressive Investor bids LKR 900.
+
+Conservative Banker bids LKR 1150.
+
+Opportunistic Trader bids LKR 1400.
+
+Aggressive Investor bids LKR 1650.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 33 to 39
+11 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 4859.
+Opportunistic Trader moves from Square 39 to 7
+9 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: National Disaster
+========================================
+
+National Disaster
+Opportunistic Trader suffers LKR 500 in losses from a National Disaster.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor cannot afford maintenance on Pettah (needs LKR 160).
+Aggressive Investor cannot afford maintenance on Maradana (needs LKR 100).
+=======================================
+Round 9 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 97
+
+Net Worth : LKR 36749
+
+Properties : 14
+
+Hotels : 1
+
+Houses : 4
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 2607
+
+Net Worth : LKR 44481
+
+Properties : 12
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 4359
+
+Net Worth : LKR 58717
+
+Properties : 16
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 2.
+Aggressive Investor moves from Square 3 to 5
+10 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 4607.
+Conservative Banker moves from Square 39 to 6
+12 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Bambalapitiya
+
+Opening Bid :
+LKR 1250.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1250.
+
+Opportunistic Trader bids LKR 1500.
+
+Conservative Banker bids LKR 1750.
+
+Opportunistic Trader bids LKR 2000.
+
+Conservative Banker bids LKR 2250.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader moves from Square 7 to 18
+9 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Katunayake
+
+Opening Bid :
+LKR 2350.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 2350.
+
+Opportunistic Trader wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 5 to 10
+10 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 6 to 14
+12 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 18 to 23
+9 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Peradeniya for LKR  5800.000000. 
+Opportunistic Trader's cash is negative (LKR -4261). Attempting to raise funds...
+Opportunistic Trader mortgaged Kottawa for LKR 2000.
+Opportunistic Trader mortgaged Jaffna Town for LKR 4000.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 10 to 15
+10 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 14 to 22
+12 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Tourism Hype
+========================================
+
+Tourism Hype
+Conservative Banker benefits from Tourism Hype! +LKR 500.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader moves from Square 23 to 34
+9 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 15 to 20
+10 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 22 to 31
+12 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3159.
+Opportunistic Trader moves from Square 34 to 2
+10 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Fuel Shortage
+========================================
+
+Fuel Shortage
+Opportunistic Trader pays LKR 200 due to Fuel Shortage.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+
+Inflation Update
+
+Round : 10
+
+Inflation Rate : 8%
+Tourism Boom
+
+Central & Western Province properties increase in value by 15%.
+
+Market Decline
+
+Northern & Eastern Province properties decrease in value.
+
+Aggressive Investor cannot afford renovation on Pettah (needs LKR 540).
+Aggressive Investor cannot afford maintenance on Maradana (needs LKR 108).
+
+Disaster
+
+Electrical Failure occurred.
+
+Affected Property :
+
+Maradana.
+
+Repair Cost Pending : LKR 389.
+Aggressive Investor's buildings on Maradana were destroyed!
+=======================================
+Round 10 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 97
+
+Net Worth : LKR 36749
+
+Properties : 14
+
+Hotels : 1
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 2607
+
+Net Worth : LKR 46456
+
+Properties : 13
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 2959
+
+Net Worth : LKR 66407
+
+Properties : 18
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor moves from Square 20 to 31
+10 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 4607.
+Conservative Banker moves from Square 31 to 0
+13 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 2.
+Opportunistic Trader moves from Square 2 to 4
+10 is player Opportunistic Trader's current round number
+
+
+--- Income Tax ---
+Opportunistic Trader landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 2959
+Opportunistic Trader paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 959
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2097.
+Aggressive Investor moves from Square 31 to 1
+11 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Pettah
+
+Opening Bid :
+LKR 810.
+
+Aggressive Investor bids LKR 810.
+
+Conservative Banker bids LKR 1060.
+
+Opportunistic Trader withdraws.
+
+Aggressive Investor bids LKR 1310.
+
+Conservative Banker bids LKR 1560.
+
+Aggressive Investor bids LKR 1810.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 0 to 6
+13 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Bambalapitiya
+
+Opening Bid :
+LKR 1350.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1350.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader moves from Square 4 to 11
+10 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 1 to 8
+11 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Wellawatte
+
+Opening Bid :
+LKR 1458.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1458.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+Aggressive Investor landed on Wellawatte
+Rent paid: LKR 238
+Owner: Conservative BankerAggressive Investor's cash is negative (LKR -123). Attempting to raise funds...
+Aggressive Investor mortgaged Bambalapitiya for LKR 1250.
+Aggressive Investor built a house on Maradana
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 6 to 13
+13 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Maharagama
+
+Opening Bid :
+LKR 2052.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+Conservative Banker built a house on Bambalapitiya
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 6.
+Opportunistic Trader moves from Square 11 to 17
+10 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 8 to 17
+11 is player Aggressive Investor's current round number
+
+
+Purchasing Insurance
+
+Comprehensive Insurance purchased.
+
+Property : Pettah
+
+Premium : LKR 162.
+
+Purchasing Insurance
+
+Basic Insurance purchased.
+
+Property : Maradana
+
+Premium : LKR 97.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 5.
+Conservative Banker moves from Square 13 to 18
+13 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Katunayake
+
+Opening Bid :
+LKR 2538.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 17 to 26
+10 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 17 to 27
+11 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 18 to 25
+13 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 26 to 35
+10 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 27 to 33
+11 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 25 to 32
+13 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2959.
+Opportunistic Trader moves from Square 35 to 3
+11 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 972.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader bids LKR 972.
+
+Opportunistic Trader wins the auction.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor performed maintenance on Pettah for LKR 173. Condition restored to 100%.
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+=======================================
+Round 11 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 155
+
+Net Worth : LKR 40263
+
+Properties : 15
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 916
+
+Net Worth : LKR 49965
+
+Properties : 15
+
+Hotels : 0
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 1766
+
+Net Worth : LKR 67553
+
+Properties : 19
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 12413
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2155.
+Aggressive Investor moves from Square 33 to 4
+12 is player Aggressive Investor's current round number
+
+
+--- Income Tax ---
+Aggressive Investor landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 2155
+Aggressive Investor paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 155
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2916.
+Conservative Banker moves from Square 32 to 2
+14 is player Conservative Banker's current round number
+
+Conservative Banker built a house on Wellawatte
+Conservative Banker built a house on Mount Lavinia
+
+Conservative Banker landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Heavy Floods
+========================================
+
+Heavy Floods
+
+Disaster
+
+Flood occurred.
+
+Affected Property :
+
+Bambalapitiya.
+
+Repair Cost Paid : LKR 540.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader moves from Square 3 to 11
+11 is player Opportunistic Trader's current round number
+
+Opportunistic Trader purchasaed Nugegoda for LKR  3780.000000. 
+Opportunistic Trader's cash is negative (LKR -2014). Attempting to raise funds...
+Opportunistic Trader mortgaged Peradeniya for LKR 2900.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 4 to 8
+12 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Wellawatte
+
+Opening Bid :
+LKR 1458.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 2 to 8
+14 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 11 to 16
+11 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 8 to 18
+12 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker moves from Square 8 to 19
+14 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Ja-Ela
+
+Opening Bid :
+LKR 2700.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 3.
+Opportunistic Trader moves from Square 16 to 19
+11 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 18 to 28
+12 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 10.
+Conservative Banker moves from Square 19 to 29
+14 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 19 to 24
+11 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 28 to 37
+12 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 2.
+Conservative Banker moves from Square 29 to 31
+14 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 4.
+Opportunistic Trader moves from Square 24 to 28
+11 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2155.
+Aggressive Investor moves from Square 37 to 2
+13 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Political Rally
+========================================
+
+Political Rally
+Aggressive Investor is delayed by a Political Rally. No effect this turn.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 31 to 39
+14 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader moves from Square 28 to 36
+11 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Stock Market Rise
+========================================
+
+Stock Market Rise
+Opportunistic Trader gains LKR 300 from a Stock Market Rise.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor moves from Square 2 to 13
+13 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Maharagama for LKR  4104. 
+Aggressive Investor's cash is negative (LKR -1949). Attempting to raise funds...
+Aggressive Investor mortgaged Nugegoda for LKR 1750.
+Aggressive Investor mortgaged Pettah for LKR 750.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2756.
+Conservative Banker moves from Square 39 to 7
+15 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Economic Downturn
+========================================
+
+Economic Downturn
+Conservative Banker loses LKR 300 due to an Economic Downturn.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2808.
+Opportunistic Trader moves from Square 36 to 3
+12 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 972.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 972.
+
+Opportunistic Trader bids LKR 1222.
+
+Conservative Banker bids LKR 1472.
+
+Opportunistic Trader bids LKR 1722.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader wins the auction.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor cannot afford renovation on Pettah (needs LKR 540).
+Conservative Banker renovated Bambalapitiya for LKR 203. Property value, rent, and condition restored.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+=======================================
+Round 12 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 140
+
+Net Worth : LKR 44352
+
+Properties : 16
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 2213
+
+Net Worth : LKR 51262
+
+Properties : 15
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 864
+
+Net Worth : LKR 54547
+
+Properties : 21
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 31031
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 13 to 19
+13 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 4.
+Conservative Banker moves from Square 7 to 11
+15 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Nugegoda
+
+Opening Bid :
+LKR 1890.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1890.
+
+Opportunistic Trader withdraws.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 11.
+Opportunistic Trader moves from Square 3 to 14
+12 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 19 to 27
+13 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 11 to 18
+15 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 5.
+Opportunistic Trader moves from Square 14 to 19
+12 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor moves from Square 27 to 38
+13 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 18 to 25
+15 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 8.
+Opportunistic Trader moves from Square 19 to 27
+12 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2140.
+Aggressive Investor moves from Square 38 to 4
+14 is player Aggressive Investor's current round number
+
+
+--- Income Tax ---
+Aggressive Investor landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 2140
+Aggressive Investor paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 140
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 25 to 34
+15 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 27 to 36
+12 is player Opportunistic Trader's current round number
+
+
+Opportunistic Trader landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Housing Subsidy
+========================================
+
+Housing Subsidy
+Opportunistic Trader receives a Housing Subsidy of LKR 250.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 3.
+Aggressive Investor moves from Square 4 to 7
+14 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Interest Rate Cut
+========================================
+
+Interest Rate Cut
+Aggressive Investor benefits from lower loan interest this round.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2323.
+Conservative Banker moves from Square 34 to 0
+16 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 7.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3114.
+Opportunistic Trader moves from Square 36 to 3
+13 is player Opportunistic Trader's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 972.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 972.
+
+Opportunistic Trader bids LKR 1222.
+
+Conservative Banker bids LKR 1472.
+
+Opportunistic Trader bids LKR 1722.
+
+Conservative Banker withdraws.
+
+Opportunistic Trader wins the auction.
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor cannot afford renovation on Pettah (needs LKR 540).
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+=======================================
+Round 13 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 140
+
+Net Worth : LKR 44352
+
+Properties : 16
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 2242
+
+Net Worth : LKR 55071
+
+Properties : 16
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 1171
+
+Net Worth : LKR 10790
+
+Properties : 22
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 77578
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 7 to 12
+14 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 0 to 8
+16 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 12.
+Opportunistic Trader moves from Square 3 to 15
+13 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 12 to 20
+14 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 8 to 16
+16 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 10.
+Opportunistic Trader moves from Square 15 to 25
+13 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 20 to 30
+14 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Go To Jail and has been sent to Jail (Square 10).
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 16 to 24
+16 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 9.
+Opportunistic Trader moves from Square 25 to 34
+13 is player Opportunistic Trader's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+Aggressive Investor remains in Jail (1/3 turns served).
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 24 to 33
+16 is player Conservative Banker's current round number
+
+
+Purchasing Insurance
+
+Comprehensive Insurance purchased.
+
+Property : Bambalapitiya
+
+Premium : LKR 270.
+
+Purchasing Insurance
+
+Comprehensive Insurance purchased.
+
+Property : Mount Lavinia
+
+Premium : LKR 324.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Opportunistic Trader rolled 10.
+Opportunistic Trader passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3171.
+Opportunistic Trader moves from Square 34 to 4
+14 is player Opportunistic Trader's current round number
+
+
+--- Income Tax ---
+Opportunistic Trader landed on Income Tax.
+Tax Due: LKR 2000 | Current Cash: LKR 3171
+Opportunistic Trader paid LKR 2000 in Income Tax.
+Remaining Cash: LKR 1171
+
+
+-----------------------$$$-------------------
+
+************************************
+
+Aggressive Investor cannot afford renovation on Pettah (needs LKR 540).
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+Opportunistic Trader performed maintenance on Maradana for LKR 27. Condition restored to 100%.
+=======================================
+Round 14 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 140
+
+Net Worth : LKR 44352
+
+Properties : 16
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1567
+
+Net Worth : LKR 54396
+
+Properties : 16
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader
+
+Cash : LKR 1144
+
+Net Worth : LKR -105604
+
+Properties : 22
+
+Hotels : 0
+
+Houses : 0
+
+Outstanding Loan : LKR 193945
+
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+None Active
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+Aggressive Investor rolled doubles (12) and is released from Jail!
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 10 to 16
+14 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3567.
+Conservative Banker moves from Square 33 to 2
+17 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Interest Rate Increase
+========================================
+
+Interest Rate Increase
+Conservative Banker faces higher loan interest this round.
+
+
+-----------------------$$$-------------------
+
+Opportunistic Trader's net worth has fallen to LKR -105604. Attempting to raise funds...
+Opportunistic Trader has been declared BANKRUPT (Net Worth : LKR -105604).
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 16 to 21
+14 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 2 to 11
+17 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Nugegoda
+
+Opening Bid :
+LKR 1890.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1890.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 21 to 26
+14 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 5.
+Conservative Banker moves from Square 11 to 16
+17 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 26 to 36
+14 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Tax Amnesty
+========================================
+
+Tax Amnesty
+Aggressive Investor saves LKR 150 thanks to a Tax Amnesty.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 16 to 22
+17 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on National Event Card (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Power Failure
+========================================
+
+Power Failure
+Conservative Banker pays LKR 100 for Power Failure repairs.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2290.
+Aggressive Investor moves from Square 36 to 3
+15 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 972.
+
+Aggressive Investor bids LKR 972.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 22 to 28
+17 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+************************************
+
+Aggressive Investor renovated Pettah for LKR 540. Property value, rent, and condition restored.
+Aggressive Investor performed maintenance on Maradana for LKR 27. Condition restored to 100%.
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+
+Government Regulation
+
+Galle Fort, Unawatuna and Hikkaduwa rental income +40%
+
+Galle Fort, Unawatuna and Hikkaduwa rental income +40%
+
+Galle Fort, Unawatuna and Hikkaduwa rental income +40%
+=======================================
+Round 15 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 530
+
+Net Worth : LKR 47226
+
+Properties : 17
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1118
+
+Net Worth : LKR 57727
+
+Properties : 17
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader — BANKRUPT (out of the game)
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+Southern Tourism Boom
+(+20%)
+Rounds Remaining : 12
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 3 to 10
+15 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 3.
+Conservative Banker moves from Square 28 to 31
+17 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 10 to 18
+15 is player Aggressive Investor's current round number
+
+Aggressive Investor purchasaed Katunayake for LKR  5076. 
+Aggressive Investor's cash is negative (LKR -4546). Attempting to raise funds...
+Aggressive Investor mortgaged Maharagama for LKR 1900.
+Aggressive Investor mortgaged Maradana for LKR 900.
+Aggressive Investor mortgaged Negombo for LKR 2250.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 31 to 37
+17 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 18 to 26
+15 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 5.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3118.
+Conservative Banker moves from Square 37 to 2
+18 is player Conservative Banker's current round number
+
+
+Conservative Banker landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Foreign Funding
+========================================
+
+Foreign Funding
+Conservative Banker receives LKR 600 in Foreign Funding.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor moves from Square 26 to 31
+15 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 9.
+Conservative Banker moves from Square 2 to 11
+18 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Nugegoda
+
+Opening Bid :
+LKR 1890.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1890.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 31 to 37
+15 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 11 to 18
+18 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Katunayake
+
+Opening Bid :
+LKR 2538.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2504.
+Aggressive Investor moves from Square 37 to 2
+16 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Port Expansion
+========================================
+
+Port Expansion
+ Port Expansion. Railway values may rise.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 18 to 25
+18 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+************************************
+
+Aggressive Investor performed maintenance on Pettah for LKR 173. Condition restored to 100%.
+Aggressive Investor performed maintenance on Maradana for LKR 27. Condition restored to 100%.
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+=======================================
+Round 16 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 2304
+
+Net Worth : LKR 54076
+
+Properties : 18
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1369
+
+Net Worth : LKR 61758
+
+Properties : 18
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader — BANKRUPT (out of the game)
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+Southern Tourism Boom
+(+20%)
+Rounds Remaining : 11
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 11.
+Aggressive Investor moves from Square 2 to 13
+16 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maharagama
+
+Opening Bid :
+LKR 2052.
+
+Aggressive Investor bids LKR 2052.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 12.
+Conservative Banker moves from Square 25 to 37
+18 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 13 to 17
+16 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3369.
+Conservative Banker moves from Square 37 to 5
+19 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 17 to 25
+16 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 5 to 11
+19 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Nugegoda
+
+Opening Bid :
+LKR 1890.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1890.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 25 to 34
+16 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 11 to 18
+19 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2252.
+Aggressive Investor moves from Square 34 to 2
+17 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Festival Season
+========================================
+
+Festival Season
+Aggressive Investor earns LKR 200 during Festival Season.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 18 to 24
+19 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+************************************
+
+Aggressive Investor performed maintenance on Pettah for LKR 173. Condition restored to 100%.
+Aggressive Investor performed maintenance on Maradana for LKR 27. Condition restored to 100%.
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+=======================================
+Round 17 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 2252
+
+Net Worth : LKR 58128
+
+Properties : 19
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1020
+
+Net Worth : LKR 65189
+
+Properties : 19
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader — BANKRUPT (out of the game)
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+Southern Tourism Boom
+(+20%)
+Rounds Remaining : 10
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 9.
+Aggressive Investor moves from Square 2 to 11
+17 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Nugegoda
+
+Opening Bid :
+LKR 1890.
+
+Aggressive Investor bids LKR 1890.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 5.
+Conservative Banker moves from Square 24 to 29
+19 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor moves from Square 11 to 18
+17 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3020.
+Conservative Banker moves from Square 29 to 0
+20 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 18 to 24
+17 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 3.
+Conservative Banker moves from Square 0 to 3
+20 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 972.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 972.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 24 to 28
+17 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 11.
+Conservative Banker moves from Square 3 to 14
+20 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 28 to 34
+17 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 14 to 21
+20 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 34 to 38
+17 is player Aggressive Investor's current round number
+
+Aggressive Investor landed on Bank of Ceylon but chose not to take a loan.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 21 to 28
+20 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 5.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2362.
+Aggressive Investor moves from Square 38 to 3
+18 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 972.
+
+Aggressive Investor bids LKR 972.
+
+Conservative Banker bids LKR 1222.
+
+Aggressive Investor bids LKR 1472.
+
+Conservative Banker bids LKR 1722.
+
+Aggressive Investor bids LKR 1972.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 7.
+Conservative Banker moves from Square 28 to 35
+20 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+************************************
+
+Aggressive Investor cannot afford maintenance on Pettah (needs LKR 173).
+Aggressive Investor performed maintenance on Maradana for LKR 27. Condition restored to 100%.
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+=======================================
+Round 18 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 142
+
+Net Worth : LKR 62619
+
+Properties : 21
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 1746
+
+Net Worth : LKR 68399
+
+Properties : 20
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Opportunistic Trader — BANKRUPT (out of the game)
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+Southern Tourism Boom
+(+20%)
+Rounds Remaining : 9
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 10.
+Aggressive Investor moves from Square 3 to 13
+18 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Maharagama
+
+Opening Bid :
+LKR 2052.
+
+Aggressive Investor withdraws.
+
+Conservative Banker withdraws.
+
+Ownership remains with the Bank.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 3746.
+Conservative Banker moves from Square 35 to 3
+21 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Maradana
+
+Opening Bid :
+LKR 972.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 972.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Opportunistic Trader is bankrupt out of game.
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 13 to 21
+18 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 3 to 9
+21 is player Conservative Banker's current round number
+
+Auction Started.
+
+Property :
+Mount Lavinia
+
+Opening Bid :
+LKR 1620.
+
+Aggressive Investor withdraws.
+
+Conservative Banker bids LKR 1620.
+
+Conservative Banker wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 6.
+Aggressive Investor moves from Square 21 to 27
+18 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 3.
+Conservative Banker moves from Square 9 to 12
+21 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 8.
+Aggressive Investor moves from Square 27 to 35
+18 is player Aggressive Investor's current round number
+
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 8.
+Conservative Banker moves from Square 12 to 20
+21 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 7.
+Aggressive Investor passed GO.
+Collected LKR 2,000.
+Current Balance : LKR 2142.
+Aggressive Investor moves from Square 35 to 2
+19 is player Aggressive Investor's current round number
+
+
+Aggressive Investor landed on Community Development Fund (Event Square).
+
+========================================
+       NATIONAL EVENT CARD
+========================================
+Card: Labour Strike
+========================================
+
+Labour Strike
+Aggressive Investor loses LKR 250 due to a Labour Strike.
+
+
+-----------------------$$$-------------------
+
+
+--------------------$$$-------------------
+Conservative Banker rolled 6.
+Conservative Banker moves from Square 20 to 26
+21 is player Conservative Banker's current round number
+
+
+
+-----------------------$$$-------------------
+
+************************************
+
+  Loan Default
+
+ has defaulted.
+
+Collateral has been foreclosed.
+
+Outstanding debt cleared.
+
+ has no remaining assets and is declared BANKRUPT.
+Aggressive Investor renovated Pettah for LKR 540. Property value, rent, and condition restored.
+Conservative Banker performed maintenance on Maradana for LKR 27. Condition restored to 100%.
+Conservative Banker performed maintenance on Bambalapitiya for LKR 41. Condition restored to 100%.
+Conservative Banker performed maintenance on Mount Lavinia for LKR 41. Condition restored to 100%.
+=======================================
+Round 19 Summary
+=======================================
+
+Risk Taker — BANKRUPT (out of the game)
+---------------------------------------
+
+Aggressive Investor
+
+Cash : LKR 1352
+
+Net Worth : LKR 63829
+
+Properties : 21
+
+Hotels : 1
+
+Houses : 1
+
+Outstanding Loan : None
+
+---------------------------------------
+
+Conservative Banker
+
+Cash : LKR 460
+
+Net Worth : LKR 73337
+
+Properties : 22
+
+Hotels : 0
+
+Houses : 3
+
+Outstanding Loan : None
+
+---------------------------------------
+
+ — BANKRUPT (out of the game)
+=========================================
+Current Market Conditions
+=========================================
+
+Market Boom
+-------------
+None Active
+
+Market Decline
+----------------
+None Active
+
+Regional Development
+-----------------------
+Southern Tourism Boom
+(+20%)
+Rounds Remaining : 8
+
+Inflation
+------------
++0%
+
+Current Loan Interest
+------------------------
+0%
+
+=========================================
+************************************
+
+Player Risk Taker is bankrupt out of game.
+
+--------------------$$$-------------------
+Aggressive Investor rolled 4.
+Aggressive Investor moves from Square 2 to 6
+19 is player Aggressive Investor's current round number
+
+Auction Started.
+
+Property :
+Bambalapitiya
+
+Opening Bid :
+LKR 1350.
+
+Aggressive Investor bids LKR 1350.
+
+Conservative Banker withdraws.
+
+Aggressive Investor wins the auction.
+
+
+-----------------------$$$-------------------
+
+Player  is bankrupt out of game.
+=======================================
+Aggressive Investor is the last player and WINS the game!
+Final Cash : LKR 2
+=======================================

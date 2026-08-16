@@ -15,7 +15,7 @@ double insurance_premium_multiplier = 1.0;
 
 void setup_game(void)
 {
-    srand(time(NULL));
+    srand(42);
 
     initialize_board();
 initialize_event_deck(&gameBoard.event_deck);
@@ -160,7 +160,7 @@ void resolve_landing_action(Player *player, Square *square, int player_index)
     printf("\n%s landed on %s (Event Square).\n", player->player_name, square->square_name);
     EventCard card = pick_event_card(&gameBoard.event_deck);
     printf("\n%s\n",card.name);
-    apply_event_effect(player, &card);
+    apply_event_effect(player, player_index, &card);
     break;
 }
 
@@ -356,7 +356,7 @@ printf("%s rolled %d.\n", players[j].player_name, players[j].die_value);
             if (min_round % 15 == 0)
            {
                 printf("\nGovernment Regulation\n");
-                reginal_case();  // regional card drawing thing goin on here
+                reginal_case(min_round);  // regional card drawing thing goin on here
               }
 
             

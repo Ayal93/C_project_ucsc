@@ -99,6 +99,6 @@ reginalCard draw_from_top_areginal_card();
 
 void init_deck(Regional_Card_Deck *deck);
 reginalCard draw_from_top_areginal_card(Regional_Card_Deck *deck);
-void reginal_case(void);
+void reginal_case(int current_round);
 
 #endif

@@ -299,6 +299,7 @@ void initialize_board() {
     gameBoard.squares[i] = squares[i];
   }
      initialize_event_deck(&gameBoard.event_deck);
+     
 }
 
 int roll_dice(int *is_double){   

@@ -166,8 +166,9 @@ int policy_covers_disaster(InsuranceType policy, DisasterType disaster) {
 
 
     
-    if (policy == BASIC_INSURANCE) {
-        if (disaster == DISASTER_FIRE ||disaster == DISASTER_FLOOD || disaster == DISASTER_FLOOD) {
+      if (policy == BASIC_INSURANCE) {
+        
+        if (disaster == DISASTER_FIRE || disaster == DISASTER_FLOOD) {
             return 1;
         }
         return 0;
@@ -192,39 +193,54 @@ int policy_covers_disaster(InsuranceType policy, DisasterType disaster) {
     return 0;
 }
 
+const char *disaster_name(DisasterType d) {
+    switch (d) {
+        case DISASTER_FIRE:               return "Fire";
+        case DISASTER_FLOOD:              return "Flood";
+        case DISASTER_RIOT:               return "Riot";
+        case DISASTER_VANDALISM:          return "Vandalism";
+        case DISASTER_ELECTRICAL_FAILURE: return "Electrical Failure";
+        default:                          return "Unknown Disaster";
+    }
+}
+
+
+
 void process_insurance_claim(Player *owner, property *hit, DisasterType disaster) {
 
     double repair_cost = hit->Purchase_Price * 0.20;
 
-    printf("\nDisaster Occurred\n\n");
-    printf("Property : %s\n\n", hit->property_name);
+    
+    printf("\nDisaster\n\n");
+    printf("%s occurred.\n\n", disaster_name(disaster));
+    printf("Affected Property :\n\n");
+    printf("%s.\n\n", hit->property_name);
 
     if (hit->Insurance_Status != NO_INSURANCE &&
         policy_covers_disaster((InsuranceType)hit->Insurance_Status, disaster)) {
 
         double compensation_pct = 0;
-        double other;
+        double other = 0;
+
         if (hit->Insurance_Status == BASIC_INSURANCE) {
             compensation_pct = 0.80;
-            other=0.00;
-        } 
-        
+            other = 0.00;
+        }
         else if (hit->Insurance_Status == COMPREHENSIVE_INSURANCE) {
             compensation_pct = 1.00;
-            other=0.00;
+            other = 0.00;
         }
-        else if (hit->Insurance_Status == BUSINESS_INTERRUPTION_INSURANCE)
-        {
+        else if (hit->Insurance_Status == BUSINESS_INTERRUPTION_INSURANCE) {
             compensation_pct = 0.00;
-            other=hit->no_of_Hotel_Construction*hit->Base_Rental*10;
+            other = hit->no_of_Hotel_Construction * hit->Base_Rental * 10;
         }
-        
 
-        double compensation = (repair_cost * compensation_pct )+other;
+        double compensation = (repair_cost * compensation_pct) + other;
         owner->player_cash_in_hand += compensation;
 
         printf("Insurance Claim Approved.\n\n");
-        printf("Compensation Paid : LKR %.0f.\n", compensation);
+        printf("Compensation Paid :\nLKR %.0f.\n", compensation);
+        
 
     } else {
 
@@ -237,7 +253,6 @@ void process_insurance_claim(Player *owner, property *hit, DisasterType disaster
         mark_loss(owner);
     }
 }
-
 
 // Selects a random developed property and disaster type
 
@@ -263,19 +278,16 @@ void trigger_disaster(int current_round) {
     Square *hit_square = &gameBoard.squares[square_index];
     property *hit = &hit_square->property;
 
-    //DisasterType disaster = (DisasterType)(rand() % 5);  // reomve this random disatsre part brotherrrrrrrrrrr
+    DisasterType disaster = (DisasterType)(rand() % 5);
 
-        reginalCard disaster;
     int owner_index = hit->Current_Owner;
     if (owner_index < 0) {
-        return; // unowned property nothing to do
+        return; // unowned property, nothing to do
     }
 
     Player *owner = &players[owner_index];
 
     process_insurance_claim(owner, hit, disaster);
+    destroy_buildings_on_property(&gameBoard, square_index);
+    repair_disaster_damaged_property(owner, hit_square, owner_index);
 }
-
-
-
-

@@ -10,11 +10,12 @@
 
 
 typedef enum {
-    DISASTER_FIRE,
+   DISASTER_FIRE,
     DISASTER_FLOOD,
     DISASTER_RIOT,
     DISASTER_VANDALISM,
-    DISASTER_ELECTRICAL_FAILURE
+    DISASTER_ELECTRICAL_FAILURE 
+    
 } DisasterType;
  
 
@@ -38,5 +39,5 @@ void insurance_action(Player *player, int player_index);
 void decide_insurance_purchase(Player *player, Square *square, int player_index);
 void mark_loss(Player *player);
 void process_insurance_claim(Player *owner, property *hit, DisasterType disaster);
-
+const char *disaster_name(DisasterType disasterType);
 #endif

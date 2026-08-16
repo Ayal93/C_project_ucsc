@@ -184,12 +184,12 @@ typedef struct {
     int regional_development_expiration_round;
     
     int inflation_percentage;
-    Bank_Details loan_interest_percentage;
+   double loan_interest_percentage;  
 } MarketConditionsState;
 
 
 
-extern Bank_Details bank;
+
 
 
 

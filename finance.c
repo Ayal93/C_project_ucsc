@@ -15,7 +15,7 @@ double railway_rent = 0;
 
 #define INITIAL_LOAN_DURATION 20
 
-MarketConditionsState current_market_state = {0,.inflation_percentage=0.0, .loan_interest_percentage=0.0};
+MarketConditionsState current_market_state = {.inflation_percentage=0.0, .loan_interest_percentage=0.0};
 
 // in property depreciation
 
@@ -869,132 +869,104 @@ void review_property_market(int current_round)
 }
 
 
-
-
 void decay_building_condition(Square *square)
 {
-    if (square->square_type != Property)
-    {
-        return;
-    }
-
-    if (square->property.no_of_House_Construction == 0 &&
-        square->property.no_of_Hotel_Construction == 0)
-    {
-        return;
-    }
+    if (square->square_type != Property) return;
+    if (square->property.no_of_House_Construction == 0 && square->property.no_of_Hotel_Construction == 0) return;
 
     square->property.rounds_since_maintenance++;
-
-    square->property.building_condition =
-        square->property.building_condition - 2.0;
-
-    if (square->property.building_condition < 0.0)
-    {
-        square->property.building_condition = 0.0;
-    }
-
-    printf("%s's building condition decayed to %.1f%%.\n",
-           square->square_name, square->property.building_condition);
+    square->property.building_condition -= 2.0;
+    if (square->property.building_condition < 0.0) square->property.building_condition = 0.0;
 }
+
 
 double get_condition_rent_multiplier(Square *square)
 {
-    double condition;
-    double multiplier;
-
-    condition = square->property.building_condition;
-    multiplier = 0.00;
-
-    if (condition >= 90.0)
-    {
-        multiplier = 1.00;
-    }
-    else if (condition >= 75.0)
-    {
-        multiplier = 0.90;
-    }
-    else if (condition >= 50.0)
-    {
-        multiplier = 0.75;
-    }
-    else if (condition >= 25.0)
-    {
-        multiplier = 0.50;
-    }
-    else
-    {
-        multiplier = 0.00;   
-    }
-
-    return multiplier;
+    double condition = square->property.building_condition;
+    if (condition >= 90.0) return 1.00;
+    if (condition >= 75.0) return 0.90;
+    if (condition >= 50.0) return 0.75;
+    if (condition >= 25.0) return 0.50;
+    return 0.00;
 }
 
-double calculate_adjusted_rent(Square *square)
+
+void destroy_buildings_on_property(Board *board, int square_index)
 {
-    double multiplier;
-    double rent;
+    property *board_prop = &board->squares[square_index].property;
 
-    multiplier = get_condition_rent_multiplier(square);
-    rent = 0.0;
+    if (board_prop->no_of_House_Construction == 0 &&
+        board_prop->no_of_Hotel_Construction == 0)
+        return;
 
-    if (multiplier == 0.00)
+    int owner_index = board_prop->Current_Owner;
+
+    printf("%s's buildings on %s were destroyed!\n",
+           (owner_index >= 0) ? players[owner_index].player_name : "Bank",
+           board_prop->property_name);
+
+    int houses_lost = board_prop->no_of_House_Construction;
+    int hotel_lost  = board_prop->no_of_Hotel_Construction;
+
+    board_prop->no_of_House_Construction = 0;
+    board_prop->no_of_Hotel_Construction = 0;
+    board_prop->Number_of_buildings = 0;
+    board_prop->building_condition = 100.0;
+    board_prop->rounds_since_maintenance = 0;
+    board_prop->is_structurally_damaged = 0;
+    board_prop->maintenance_cost_multiplier = 1.0;
+
+    if (owner_index >= 0)
     {
-        return 0.0;
-    }
+        Player *owner = &players[owner_index];
 
-    rent = square->property.Base_Rental * multiplier;
-    return rent;
+        for (int k = 0; k < owner->number_of_properties; k++)
+        {
+            if (owner->player_owned_properties[k].Purchase_Price == board_prop->Purchase_Price &&
+                (owner->player_owned_properties[k].no_of_House_Construction == houses_lost ||
+                 owner->player_owned_properties[k].no_of_Hotel_Construction == hotel_lost))
+            {
+                owner->player_owned_properties[k].no_of_House_Construction = 0;
+                owner->player_owned_properties[k].no_of_Hotel_Construction = 0;
+                break;
+            }
+        }
+
+        owner->no_houses -= houses_lost;
+        if (owner->no_houses < 0) owner->no_houses = 0;
+
+        if (hotel_lost > 0)
+        {
+            owner->no_hotels -= hotel_lost;
+            if (owner->no_hotels < 0) owner->no_hotels = 0;
+        }
+    }
 }
 
 
 void perform_maintenance_buliding(Player *player, Square *square)
 {
-    double maintenance_cost;
-    int building_type;
+    double maintenance_cost = 0.0;
+    int building_type = 0;
 
-    maintenance_cost = 0.0;
-    building_type = 0;
+    if (square->square_type != Property) return;
 
-    if (square->square_type != Property)
-    {
-        return;
-    }
-
-    switch (square->property.no_of_Hotel_Construction)
-    {
-        case 1:
-            building_type = 2;
-            break;
-
-        default:
-            if (square->property.no_of_House_Construction > 0)
-            {
-                building_type = 1;
-            }
-            else
-            {
-                building_type = 0;
-            }
-            break;
-    }
+    if (square->property.no_of_Hotel_Construction == 1) building_type = 2;
+    else if (square->property.no_of_House_Construction > 0) building_type = 1;
 
     switch (building_type)
     {
-        case 1:   
+        case 1:
             maintenance_cost = 0.05 * square->property.House_Construction_Cost
                                 * square->property.no_of_House_Construction
                                 * square->property.maintenance_cost_multiplier;
             break;
-
-        case 2:  
+        case 2:
             maintenance_cost = 0.08 * square->property.Hotel_Construction_Cost
                                 * square->property.maintenance_cost_multiplier;
             break;
-
         default:
-            printf("%s has no buildings that require maintenance.\n",
-                   square->square_name);
+            printf("%s has no buildings that require maintenance.\n", square->square_name);
             return;
     }
 
@@ -1003,7 +975,6 @@ void perform_maintenance_buliding(Player *player, Square *square)
         player->player_cash_in_hand -= maintenance_cost;
         square->property.building_condition = 100.0;
         square->property.rounds_since_maintenance = 0;
-
         printf("%s performed maintenance on %s for LKR %.0f. Condition restored to 100%%.\n",
                player->player_name, square->square_name, maintenance_cost);
     }
@@ -1017,31 +988,17 @@ void perform_maintenance_buliding(Player *player, Square *square)
 
 void check_structural_damage(Square *square)
 {
-    if (square->square_type != Property)
-    {
-        return;
-    }
-
-    if (square->property.is_structurally_damaged == 1)
-    {
-        return;
-    }
+    if (square->square_type != Property) return;
+    if (square->property.is_structurally_damaged == 1) return;
 
     if (square->property.rounds_since_maintenance > 20)
     {
-        square->property.current_market_value =
-            square->property.current_market_value * 0.85;
-
-        square->property.Base_Rental =
-            square->property.Base_Rental * 0.75;
-
-        square->property.maintenance_cost_multiplier =
-            square->property.maintenance_cost_multiplier * 1.50;
-
+        square->property.current_market_value *= 0.85;
+        square->property.Base_Rental *= 0.75;
+        square->property.maintenance_cost_multiplier *= 1.50;
         square->property.is_structurally_damaged = 1;
 
-        printf("%s has suffered structural damage from neglected maintenance!\n",
-               square->square_name);
+        printf("%s has suffered structural damage from neglected maintenance!\n", square->square_name);
         printf("Property value -15%%, rent -25%%, future maintenance cost +50%%.\n");
     }
 }
@@ -1049,45 +1006,28 @@ void check_structural_damage(Square *square)
 
 void renovate_building(Player *player, Square *square)
 {
-    double renovation_cost;
+    double renovation_cost = 0.0;
 
-    renovation_cost = 0.0;
-
-    if (square->square_type != Property)
-    {
-        return;
-    }
+    if (square->square_type != Property) return;
 
     if (square->property.is_structurally_damaged == 0)
     {
-        printf("%s is not damaged and does not need renovation.\n",
-               square->square_name);
+        printf("%s is not damaged and does not need renovation.\n", square->square_name);
         return;
     }
 
-    switch (square->property.no_of_Hotel_Construction)
-    {
-        case 1:
-            renovation_cost = 0.25 * square->property.Hotel_Construction_Cost;
-            break;
-
-        default:
-            renovation_cost = 0.25 * square->property.House_Construction_Cost
-                               * square->property.no_of_House_Construction;
-            break;
-    }
+    if (square->property.no_of_Hotel_Construction == 1)
+        renovation_cost = 0.25 * square->property.Hotel_Construction_Cost;
+    else
+        renovation_cost = 0.25 * square->property.House_Construction_Cost * square->property.no_of_House_Construction;
 
     if (player->player_cash_in_hand >= renovation_cost)
     {
         player->player_cash_in_hand -= renovation_cost;
-
         square->property.current_market_value = square->property.Purchase_Price;
-
         square->property.Base_Rental = square->property.Base_Rental / 0.75;
-
         square->property.building_condition = 100.0;
         square->property.rounds_since_maintenance = 0;
-
         square->property.is_structurally_damaged = 0;
         square->property.maintenance_cost_multiplier = 1.0;
 
@@ -1102,11 +1042,49 @@ void renovate_building(Player *player, Square *square)
 }
 
 
+void repair_disaster_damaged_property(Player *player, Square *square, int player_index)
+{
+    property *p = &square->property;
+
+    if (square->square_type != Property || p->Current_Owner != player_index)
+        return;
+
+    if (p->no_of_House_Construction > 0 || p->no_of_Hotel_Construction > 0)
+        return;
+
+    if (!has_monopoly(player_index, p->group))
+        return;
+
+    double rebuild_cost = p->House_Construction_Cost * 0.25;
+
+    if (player->player_cash_in_hand < rebuild_cost)
+        return;
+
+    player->player_cash_in_hand -= rebuild_cost;
+    p->no_of_House_Construction = 1;
+    p->building_condition = 100.0;
+    p->rounds_since_maintenance = 0;
+    p->is_structurally_damaged = 0;
+    p->maintenance_cost_multiplier = 1.0;
+    player->no_houses++;
+
+    printf("%s repaired %s and rebuilt one house for LKR %.0f.\n",
+           player->player_name, p->property_name, rebuild_cost);
+}
+
+
+void repair_disaster_damage(Player *player, int player_index)
+{
+    for (int i = 0; i < 40; i++)
+    {
+        repair_disaster_damaged_property(player, &gameBoard.squares[i], player_index);
+    }
+}
+
+
 void process_round_end_maintenance(void)
 {
-    int i;
-
-    for (i = 0; i < 40; i++)
+    for (int i = 0; i < 40; i++)
     {
         decay_building_condition(&gameBoard.squares[i]);
         check_structural_damage(&gameBoard.squares[i]);
@@ -1114,51 +1092,31 @@ void process_round_end_maintenance(void)
 }
 
 
-
 void run_maintenance_cycle(Player players_list[], int num_players)
-
 {
-    int p;
-    int s;
-    Square *square;
-    Player *owner;
-
-    for (p = 0; p < num_players; p++)
+    for (int p = 0; p < num_players; p++)
     {
-        if (players_list[p].is_bankrupt == 1)
+        if (players_list[p].is_bankrupt == 1) continue;
+
+        Player *owner = &players_list[p];
+
+        for (int s = 0; s < 40; s++)
         {
-            continue;
-        }
+            Square *square = &gameBoard.squares[s];
 
-        owner = &players_list[p];
-
-        for (s = 0; s < 40; s++)
-        {
-            square = &gameBoard.squares[s];
-
-            if (square->square_type != Property)
-            {
-                continue;
-            }
-
-            if (square->property.Current_Owner != p)
-            {
-                continue;
-            }
+            if (square->square_type != Property) continue;
+            if (square->property.Current_Owner != p) continue;
 
             if (square->property.is_structurally_damaged == 1)
-            {
                 renovate_building(owner, square);
-            }
             else if (square->property.building_condition < 100.0)
-            {
                 perform_maintenance_buliding(owner, square);
-            }
         }
     }
 
     process_round_end_maintenance();
 }
+
 
 
 

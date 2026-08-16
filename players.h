@@ -13,7 +13,7 @@ Opportunistic_Trader
 } players_name_enum;
 
 typedef struct {
-    char player_name[20];
+    char player_name[30];
     int player_order;
     int die_value;
 
@@ -75,6 +75,6 @@ Square *current_landed_square(Player *player);
 void player_passe_go(Player *player);
 void display_round_summary(int round_number, const Player players[], int num_players);
 void resolve_landing_action(Player *player, Square *square, int player_index);
-void apply_event_effect(Player *player, const EventCard *card);
+void apply_event_effect(Player *player, int player_index, const EventCard *card);
 
 #endif

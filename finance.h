@@ -23,4 +23,11 @@ double get_condition_rent_multiplier(Square *square);
 double calculate_net_worth(Player *player);
 extern MarketConditionsState current_market_state;
 
+
+
+void destroy_buildings_on_property(Board *board, int square_index);
+void repair_disaster_damaged_property(Player *player, Square *square, int player_index);
+void repair_disaster_damage(Player *player, int player_index);
+void print_current_market_conditions(int current_round, const MarketConditionsState *market);
+
 #endif
