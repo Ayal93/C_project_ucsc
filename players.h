@@ -57,7 +57,7 @@ double current_loan_interest_rate;
 
 extern Player players[4];
 
-void player_buying_property(Player *player, Square *square, int player_index);
+int player_buying_property(Player *player, Square *square, int player_index);
 void pay_rent_when_land_on_others(Player *player, Square *Square_current, int player_index);
 double get_development_rent_multiplier(int houses, int hotels);
 

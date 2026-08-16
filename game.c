@@ -291,25 +291,37 @@ printf("%s rolled %d.\n", players[j].player_name, players[j].die_value);
 
             Square *square = current_landed_square(&players[j]);
 
-            if (square->square_type == Property && square->property.Current_Owner == -1)
-            {
-                player_buying_property(&players[j], square, j);
+         if (square->square_type == Property)
+{
+    if (square->property.Current_Owner == -1)
+    {
+        // Try to buy the property
+        int bought = player_buying_property(&players[j], square, j);
+        
+        // If not bought, run auction
+        if (!bought)
+        {
+            run_auction(square, players, 4);
+        }
+    }
+    else if (square->property.Current_Owner != j)
+    {
+        // Pay rent to the owner
+        pay_rent_when_land_on_others(&players[j], square, j);
+    }
+}
+else
+{
+    // Handle non-property squares
+    resolve_landing_action(&players[j], square, j);
+}
 
-                
-            }
-            else
-            {
-               
-                    run_auction(square, players, 4);
-                
-            }
-
-            pay_rent_when_land_on_others(&players[j], current_landed_square(&players[j]), j);
+            
 
             construction_buildings(&players[j], j);
             execute_property_turn(&players[j], square, j);
 
-            resolve_landing_action(&players[j], square, j);
+           
              printf("\n\n-----------------------$$$-------------------\n\n");
         }
 

@@ -292,121 +292,71 @@ void pay_rent_when_land_on_others(Player *player, Square *Square_current, int pl
     return (total > 0 && owned == total);
 }
 
-void player_buying_property(Player *player, Square *square, int player_index) {
-    if (square->square_type == Property) {
+int player_buying_property(Player *player, Square *square, int player_index)
+{
+    if (square->square_type == Property)
+    {
         if (square->property.Current_Owner != -1) {
-            printf("%s is already owned by Player %d.\n", square->square_name, square->property.Current_Owner + 1);
-            return;
+            return 0;  // Already owned
         }
 
         double price = square->property.Purchase_Price;
-        int should_buy = 0;
+        int bought = 0;
 
-        switch (player->name_by_enum) {
+        switch (player->name_by_enum)
+        {
             case Aggressive_Investor:
-                if (player->player_cash_in_hand >= price) {
-                    should_buy = 1;
+                if (player->player_cash_in_hand >= price)
+                {
+                    player->player_cash_in_hand -= price;
+                    square->property.Current_Owner = player_index;
+                    append_property(player, square->property);
+                    printf("%s purchased %s for LKR %.0f.\n", 
+                           player->player_name, square->square_name, price);
+                    bought = 1;
                 }
                 break;
 
             case Conservative_Banker:
-                if (player->player_cash_in_hand >= price && 
-                   (player->player_cash_in_hand - price >= 0.5 * player->player_cash_in_hand)) {
-                    should_buy = 1;
+                if (player->player_cash_in_hand - price >= 0.5 * player->player_cash_in_hand)
+                {
+                    player->player_cash_in_hand -= price;
+                    square->property.Current_Owner = player_index;
+                    append_property(player, square->property);
+                    printf("%s purchased %s for LKR %.0f.\n", 
+                           player->player_name, square->square_name, price);
+                    bought = 1;
                 }
                 break;
 
             case Risk_Taker:
-                if (player->player_cash_in_hand >= price) {
-                    should_buy = 1;
+                if (player->player_cash_in_hand >= price)
+                {
+                    player->player_cash_in_hand -= price;
+                    square->property.Current_Owner = player_index;
+                    append_property(player, square->property);
+                    printf("%s purchased %s for LKR %.0f.\n", 
+                           player->player_name, square->square_name, price);
+                    bought = 1;
                 }
                 break;
 
             case Opportunistic_Trader:
-                if (player->player_cash_in_hand >= price && 
-                   (player->player_cash_in_hand > square->property.House_Construction_Cost || 
-                    player->player_cash_in_hand > square->property.Hotel_Construction_Cost)) {
-                    should_buy = 1;
+                if (player->player_cash_in_hand >= price)
+                {
+                    player->player_cash_in_hand -= price;
+                    square->property.Current_Owner = player_index;
+                    append_property(player, square->property);
+                    printf("%s purchased %s for LKR %.0f.\n", 
+                           player->player_name, square->square_name, price);
+                    bought = 1;
                 }
                 break;
         }
 
-        if (should_buy) {
-            player->player_cash_in_hand -= price;
-            square->property.Current_Owner = player_index;
-            append_property(player, square->property);
-            printf("%s purchased %s for LKR %.0f.\n", player->player_name, square->square_name, price);
-        }
+        return bought;
     }
-
-    else if (square->square_type == Utility) {
-        if (square->utility.Utility_owner != -1) {
-            printf("%s is already owned by Player %d.\n", square->square_name, square->utility.Utility_owner + 1);
-            return;
-        }
-
-        double price = square->utility.Purchase_Price;
-        int should_buy = 0;
-
-        switch (player->name_by_enum) {
-            case Aggressive_Investor:
-            case Risk_Taker:
-            case Opportunistic_Trader:
-                if (player->player_cash_in_hand >= price) {
-                    should_buy = 1;
-                }
-                break;
-
-            case Conservative_Banker:
-                if (player->player_cash_in_hand >= price && 
-                   (player->player_cash_in_hand - price >= 0.5 * player->player_cash_in_hand)) {
-                    should_buy = 1;
-                }
-                break;
-        }
-
-        if (should_buy) {
-            player->player_cash_in_hand -= price;
-            square->utility.Utility_owner = player_index;
-            append_utility(player, square->utility);
-            printf("%s purchased %s for LKR %.0f.\n", player->player_name, square->square_name, price);
-        }
-    }
-
-    else if (square->square_type == Railway) {
-        if (square->railway.current_railway_owner != -1) {
-            printf("%s is already owned by Player %d.\n", square->square_name, square->railway.current_railway_owner + 1);
-            return;
-        }
-
-        double price = railway_cost(player->number_of_railway_staions);
-        int should_buy = 0;
-
-        switch (player->name_by_enum) {
-            case Aggressive_Investor:
-            case Risk_Taker:
-            case Opportunistic_Trader:
-                if (player->player_cash_in_hand >= price) {
-                    should_buy = 1;
-                }
-                break;
-
-            case Conservative_Banker:
-                if (player->player_cash_in_hand >= price && 
-                   (player->player_cash_in_hand - price >= 0.5 * player->player_cash_in_hand)) {
-                    should_buy = 1;
-                }
-                break;
-        }
-
-        if (should_buy) {
-            player->player_cash_in_hand -= price;
-            square->railway.current_railway_owner = player_index;
-            player->number_of_railway_staions++;
-            append_railway(player, square->railway);
-            printf("%s purchased %s for LKR %.0f.\n", player->player_name, square->square_name, price);
-        }
-    }
+    return 0;
 }
 
 int get_player_property_count(int player_index) {
@@ -509,28 +459,34 @@ void construction(Player *player, Square *square, int player_index) {
             break;
 
         case Risk_Taker:
-            if (square->property.no_of_House_Construction < 4 &&
-                square->property.no_of_Hotel_Construction == 0 &&
-                square->property.no_of_House_Construction <= min_houses_in_group(square->property.group) &&
-                player->player_cash_in_hand >= square->property.House_Construction_Cost)
-            {
-                square->property.no_of_House_Construction++;
-                player->player_cash_in_hand -= square->property.House_Construction_Cost;
-                player->no_houses++;
-                printf("%s built a house on %s\n", player->player_name, square->square_name);
-            }
-            else if (square->property.no_of_House_Construction == 4 &&
-                     square->property.no_of_Hotel_Construction == 0 &&
-                     player->player_cash_in_hand >= square->property.Hotel_Construction_Cost)
-            {
-                square->property.no_of_House_Construction = 0;
-                square->property.no_of_Hotel_Construction = 1;
-                player->player_cash_in_hand -= square->property.Hotel_Construction_Cost;
-                player->no_houses -= 4;
-                player->no_hotels++;
-                printf("%s built a HOTEL on %s\n", player->player_name, square->square_name);
-            }
-            break;
+    if (square->property.no_of_House_Construction < 4 &&
+        square->property.no_of_Hotel_Construction == 0 &&
+        square->property.no_of_House_Construction <= min_houses_in_group(square->property.group) &&
+        player->player_cash_in_hand >= square->property.House_Construction_Cost)
+    {
+        square->property.no_of_House_Construction++;
+        player->player_cash_in_hand -= square->property.House_Construction_Cost;
+        player->no_houses++;
+        printf("%s built a house on %s\n", player->player_name, square->square_name);
+    }
+    else if (square->property.no_of_House_Construction == 4 &&
+             square->property.no_of_Hotel_Construction == 0 &&
+             player->player_cash_in_hand >= square->property.Hotel_Construction_Cost)
+    {
+        
+        if (player->no_houses >= 4) {
+            square->property.no_of_House_Construction = 0;
+            square->property.no_of_Hotel_Construction = 1;
+            player->player_cash_in_hand -= square->property.Hotel_Construction_Cost;
+            player->no_houses -= 4;
+            player->no_hotels++;
+            printf("%s built a HOTEL on %s\n", player->player_name, square->square_name);
+        } else {
+            printf("%s cannot build hotel - not enough houses counted (has %d, needs 4)\n", 
+                   player->player_name, player->no_houses);
+        }
+    }
+    break;
 
         case Opportunistic_Trader:
             if (square->property.no_of_House_Construction < 4 &&
