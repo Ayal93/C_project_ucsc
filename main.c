@@ -9,11 +9,11 @@
 
 
 int main(void){
-    freopen("output.txt", "w", stdout); 
+   // freopen("output.txt", "w", stdout); 
 
     start_game();
 
-   fclose(stdout);
+  // fclose(stdout);
 
     return 0;
 }
