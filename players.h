@@ -51,7 +51,7 @@ typedef struct {
     int number_of_Utilities;
     utilities player_owned_utilities[2]; 
     railway player_owned_railway[4];
-
+double current_loan_interest_rate;
 } Player;
 
 extern Player players[4];

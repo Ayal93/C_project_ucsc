@@ -7,8 +7,6 @@
 
 
 
-
-
 extern double current_loan_interest_rate;
 
 void bank_of_ceylon_action(Player *player, int player_index, Square *square);
@@ -23,4 +21,6 @@ const char* get_province_name(PropertyGroup group);
 void run_maintenance_cycle(Player players_list[], int num_players);
 double get_condition_rent_multiplier(Square *square);
 double calculate_net_worth(Player *player);
+extern MarketConditionsState current_market_state;
+
 #endif

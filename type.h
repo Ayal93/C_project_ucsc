@@ -101,7 +101,9 @@ typedef struct   {    //property values
     
 
 
-  typedef struct { property bank_owned_property[40]; int bank_property_count;
+  typedef struct { property bank_owned_property[40];
+     int bank_property_count;
+     double bank_interest_rate;
  } Bank_Details;
 extern Bank_Details bank;
 
@@ -167,6 +169,7 @@ typedef struct  {     // declaring a square
 typedef struct {
     Square squares[40];
      EventDeck event_deck;
+     Regional_Card_Deck regional_deck;
 } Board;
 
 typedef struct {
@@ -176,13 +179,13 @@ typedef struct {
     PropertyGroup decline_property_group;
     int decline_expiration_round;
     
-   
-    
+    char regional_development_name[50];
+    int regional_development_percentage;
+    int regional_development_expiration_round;
     
     int inflation_percentage;
-    int loan_interest_percentage;
+    Bank_Details loan_interest_percentage;
 } MarketConditionsState;
-
 
 
 

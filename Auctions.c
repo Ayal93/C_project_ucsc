@@ -25,6 +25,10 @@ void run_auction(Square *square, Player players[], int num_players)
             active_bidders_count++;
         }
     }
+    if (active_bidders_count == 0) {
+        printf("No eligible bidders for %s. Ownership remains unchanged.\n", square->square_name);
+        return;
+    }
 
     int highest_bidder_index = -1;
     int current_turn = 0;

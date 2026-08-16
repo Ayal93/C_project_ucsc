@@ -87,6 +87,36 @@ void initialize_event_deck(EventDeck *deck)
 
 
 
+
+
+
+
+
+
+EventCard pick_event_card(EventDeck *deck)
+{
+    EventCard picked_card;
+
+    picked_card = deck->cards[deck->top_index];
+
+    printf("\n");
+    printf("========================================\n");
+    printf("       NATIONAL EVENT CARD\n");
+    printf("========================================\n");
+    printf("Card: %s\n", picked_card.name);
+    printf("========================================\n");
+
+        
+    deck->top_index++;
+
+    if (deck->top_index >= TOTAL_EVENT_CARDS)
+    {
+        deck->top_index = 0;
+    }
+
+
+    return picked_card;
+}
 void apply_event_effect(Player *player, const EventCard *card)
 {
     switch (card->type)
@@ -94,11 +124,13 @@ void apply_event_effect(Player *player, const EventCard *card)
         case TOURISM_HYPE:
             player->player_cash_in_hand += 500.00;
             printf("%s benefits from Tourism Hype! +LKR 500.\n", player->player_name);
+           
             break;
 
         case FUEL_SHORTAGE:
             player->player_cash_in_hand -= 200.00;
             printf("%s pays LKR 200 due to Fuel Shortage.\n", player->player_name);
+            
             break;
 
         case HEAVY_FLOODS:
@@ -126,10 +158,15 @@ void apply_event_effect(Player *player, const EventCard *card)
             break;
 
         case INTEREST_RATE_CUT:
+        player->current_loan_interest_rate=0.1;
+        bank.bank_interest_rate=0.1;
+        
             printf("%s benefits from lower loan interest this round.\n", player->player_name);
             break;
 
         case INTEREST_RATE_INCREASE:
+        player->current_loan_interest_rate=4.0;
+         bank.bank_interest_rate=0.4;
             printf("%s faces higher loan interest this round.\n", player->player_name);
             break;
 
@@ -149,7 +186,8 @@ void apply_event_effect(Player *player, const EventCard *card)
             break;
 
         case PORT_EXPANSION:
-            printf("%s hears news of Port Expansion. Railway values may rise.\n", player->player_name);
+            printf(" Port Expansion. Railway values may rise.\n");
+           
             break;
 
         case FESTIVAL_SEASON:
@@ -191,40 +229,10 @@ void apply_event_effect(Player *player, const EventCard *card)
 }
 
 
-EventCard pick_event_card(EventDeck *deck)
-{
-    EventCard picked_card;
-
-    picked_card = deck->cards[deck->top_index];
-
-    printf("\n");
-    printf("========================================\n");
-    printf("       NATIONAL EVENT CARD\n");
-    printf("========================================\n");
-    printf("Card: %s\n", picked_card.name);
-    printf("========================================\n");
-
-
-    deck->top_index++;
-
-    if (deck->top_index >= TOTAL_EVENT_CARDS)
-    {
-        deck->top_index = 0;
-    }
-
-
-    return picked_card;
-}
-
-
-
-
-
-
 // regional card part --------------
 
-void init_deck() {
-    Regional_Card_Deck *deck;
+void init_deck(Regional_Card_Deck *deck) {
+    
     for (int i = 0; i < 12; i++) {
         deck->cards[i] = (reginalCard)i;
     }
@@ -232,17 +240,16 @@ void init_deck() {
 }
 
 
-reginalCard draw_from_top_areginal_card() {
-    Regional_Card_Deck *deck;
+reginalCard draw_from_top_areginal_card(Regional_Card_Deck *deck) {
     reginalCard drawn = deck->cards[deck->top_index];
-    deck->top_index = (deck->top_index + 1) % 12; 
+    deck->top_index = (deck->top_index + 1) % 12;
     return drawn;
 }
 
 
 void reginal_case(){
     Board *board;
-    reginalCard card =draw_from_top_areginal_card();
+    reginalCard card =draw_from_top_areginal_card(&gameBoard.regional_deck);
 
 for (int i = 0; i < SQUARE_COUNT; i++) {
         enumSquareName name = board->squares[i].enumName;
@@ -255,15 +262,20 @@ for (int i = 0; i < SQUARE_COUNT; i++) {
                         printf("\nGalle Fort, Unawatuna and Hikkaduwa rental income +40%%\n");
                     board->squares[i].property.Base_Rental+=board->squares[i].property.Base_Rental* 0.40;
                 }
+               
                 break;
 
-            case PORT_CITY_EXPANSION:
-                if (name == SQUARE_PETTAH || name == SQUARE_MARADANA) {printf("\nPettah, Maradana and Colombo Fort Station values +25%%\n");
-                    board->squares[i].property.Purchase_Price +=board->squares[i].property.Base_Rental* 0.25;
-                } else if (name == SQUARE_COLOMBO_FORT_RAILWAY_STATION) {printf("\nMaharagama, Nugegoda and Kottawa values +20%%\n");
-                    board->squares[i].railway.Purchase_Price +=board->squares[i].property.Base_Rental* 0.25;
-                }
-                break;
+            case PORT_EXPANSION:
+    printf("% Port Expansion. Railway values may rise.\n");
+    for (int r = 0; r < 40; r++)
+    {
+        if (gameBoard.squares[r].square_type == Railway)
+        {
+            gameBoard.squares[r].railway.railway_morgadge_price =
+                gameBoard.squares[r].railway.railway_morgadge_price * 2;
+        }
+    }
+    break;
 
             case IT_INDUSTRY_GROWTH:
                 if (name == SQUARE_MAHARAGAMA || 
@@ -339,6 +351,7 @@ for (int i = 0; i < SQUARE_COUNT; i++) {
                 break;
 
             default:
+            
                 break;
         }
     }

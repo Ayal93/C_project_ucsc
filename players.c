@@ -23,7 +23,8 @@ Player players[4] =
  .number_of_loans=0,
  .loan_amount=0.0,
  .loan_duration_rounds=0, 
-    .remaining_loan_rounds=0
+    .remaining_loan_rounds=0,
+    .current_loan_interest_rate=0.00
 },
 
 
@@ -40,7 +41,8 @@ Player players[4] =
  .number_of_loans=0,
 .loan_amount=0.0,
  .loan_duration_rounds=0, 
-    .remaining_loan_rounds=0
+    .remaining_loan_rounds=0,
+    .current_loan_interest_rate=0.00
 
     },
 
@@ -59,7 +61,8 @@ Player players[4] =
  .number_of_loans=0,
 .loan_amount=0.0,
  .loan_duration_rounds=0, 
-    .remaining_loan_rounds=0
+    .remaining_loan_rounds=0,
+    .current_loan_interest_rate=0.00
     },
 
     
@@ -77,7 +80,8 @@ Player players[4] =
  .number_of_loans=0,
  .loan_amount=0.0,
  .loan_duration_rounds=0, 
-    .remaining_loan_rounds=0
+    .remaining_loan_rounds=0,
+    .current_loan_interest_rate=0.00
     }
 };
 void append_property(Player *player, property property)
@@ -298,11 +302,6 @@ void pay_rent_when_land_on_others(Player *player, Square *Square_current, int pl
      
 
 void player_buying_property(Player *player, Square *square, int player_index){
-
-   
-    
-
-
 if (square->square_type == Property)
         {
             if (square->property.Current_Owner != -1) {

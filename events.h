@@ -97,6 +97,8 @@ void initialize_event_deck(EventDeck *deck);
 EventCard pick_event_card(EventDeck *deck);
 reginalCard draw_from_top_areginal_card();
 
-void reginal_case();
+void init_deck(Regional_Card_Deck *deck);
+reginalCard draw_from_top_areginal_card(Regional_Card_Deck *deck);
+void reginal_case(void);
 
 #endif

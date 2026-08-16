@@ -9,7 +9,7 @@
 #include "finance.h"
 #include "events.h"
 Board gameBoard;
-Bank_Details bank = {0};
+Bank_Details bank = {0, .bank_interest_rate=0.0};
 
 void initialize_board() {
   Square squares[40] = {
@@ -334,7 +334,8 @@ void players_order(){
                                                 //each player a random value get
 }
 
-
+initialize_event_deck(&gameBoard.event_deck);
+init_deck(&gameBoard.regional_deck);
 
 
 

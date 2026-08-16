@@ -100,7 +100,7 @@ void player_passe_go(Player *player)
         
                printf("%s passed GO.\n",player->player_name);
     printf("Collected LKR 2,000.\n");
-    printf("Current Balance : LKR %d.\n", player->player_cash_in_hand);
+    printf("Current Balance : LKR %.0f.\n", player->player_cash_in_hand);
                
     }
 }
@@ -183,14 +183,68 @@ void resolve_landing_action(Player *player, Square *square, int player_index)
     }
 }
 
+void print_current_market_conditions(int current_round, const MarketConditionsState *market)
+{
+    printf("=========================================\n");
+    printf("Current Market Conditions\n");
+    printf("=========================================\n\n");
+
+    printf("Market Boom\n");
+    printf("-------------\n");
+    if (market->boom_property_group != None && market->boom_expiration_round > current_round)
+    {
+        printf("%s (+20%%)\n", get_province_name(market->boom_property_group));
+        printf("Rounds Remaining : %d\n\n", market->boom_expiration_round - current_round);
+    }
+    else
+    {
+        printf("None Active\n\n");
+    }
+
+    printf("Market Decline\n");
+    printf("----------------\n");
+    if (market->decline_property_group != None && market->decline_expiration_round > current_round)
+    {
+        printf("%s (-15%%)\n", get_province_name(market->decline_property_group));
+        printf("Rounds Remaining : %d\n\n", market->decline_expiration_round - current_round);
+    }
+    else
+    {
+        printf("None Active\n\n");
+    }
+
+    printf("Regional Development\n");
+    printf("-----------------------\n");
+    if (market->regional_development_expiration_round > current_round)
+    {
+        printf("%s\n", market->regional_development_name);
+        printf("(+%d%%)\n", market->regional_development_percentage);
+        printf("Rounds Remaining : %d\n\n", market->regional_development_expiration_round - current_round);
+    }
+    else
+    {
+        printf("None Active\n\n");
+    }
+
+    printf("Inflation\n");
+    printf("------------\n");
+    printf("+%d%%\n\n", market->inflation_percentage);
+
+    printf("Current Loan Interest\n");
+    printf("------------------------\n");
+   
+   printf("%.0f%%\n\n",bank.bank_interest_rate);
+
+    printf("=========================================\n");
+}
 
 
-
+int k = 0;
 
 void start_game()
 {
     setup_game();
-    int k = 0;
+    
     int previous_min_round = 0;
 
     do
@@ -263,7 +317,7 @@ printf("%s rolled %d.\n", players[j].player_name, players[j].die_value);
         int active_players = 0;
         int winner_index = -1;
 
-        for (int i = 0; i < 4; i++)
+         for (int i = 0; i < 4; i++)
         {   
             if (!players[i].status_bankrupt)
             {
@@ -312,6 +366,8 @@ printf("%s rolled %d.\n", players[j].player_name, players[j].die_value);
             }
 
             display_round_summary(min_round, players, 4);
+            print_current_market_conditions(min_round, &current_market_state);
+            
  printf("************************************\n\n");
             k = min_round;
             previous_min_round = min_round;
